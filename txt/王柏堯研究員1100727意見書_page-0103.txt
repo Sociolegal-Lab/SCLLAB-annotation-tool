@@ -1,0 +1,17 @@
+|  | Security Level 1 | Security Level 2 | Security Level 3 | Security Level 4 |
+|---|---|---|---|---|
+| Cryptographic Module Specification | Specification of cryptographic module, cryptographic boundary, Approved algorithms, and Approved modes of operation. Description of cryptographic module, including all hardware, software, and firmware components. Statement of module security policy. | | | |
+| Cryptographic Module Ports and Interfaces | Required and optional interfaces. Specification of all interfaces and of all input and output data paths. | | Data ports for unprotected critical security parameters logically or physically separated from other data ports. | |
+| Roles, Services, and Authentication | Logical separation of required and optional roles and services. | Role-based or identity-based operator authentication. | Identity-based operator authentication. | |
+| Finite State Model | Specification of finite state model. Required states and optional states. State transition diagram and specification of state transitions. | | | |
+| Physical Security | Production grade equipment. | Locks or tamper evidence. | Tamper detection and response for covers and doors. | Tamper detection and response envelope. EFP ~~and~~ or EFT |
+| Operational Environment | Single operator. Executable code. Approved integrity technique. | Referenced PPs evaluated at EAL2 with specified discretionary access control mechanisms and auditing. | Referenced PPs plus trusted path evaluated at EAL3 plus security policy modeling. | Referenced PPs plus trusted path evaluated at EAL4. |
+| Cryptographic Key Management | Key management mechanisms: random number and key generation, key establishment, key distribution, key entry/output, key storage, and key zeroization. | | | |
+| | Secret and private keys established using manual methods may be entered or output in plaintext form. | | Secret and private keys established using manual methods shall be entered or output encrypted or with split knowledge procedures. | |
+| EMI/EMC | 47 CFR FCC Part 15. Subpart B, Class A (Business use). Applicable FCC requirements (for radio). | | 47 CFR FCC Part 15. Subpart B, Class B (Home use). | |
+| Self-Tests | Power-up tests: cryptographic algorithm tests, software/firmware integrity tests, critical functions tests. Conditional tests. | | | |
+| | | | ~~Statistical RNG tests—callable on demand.~~ | ~~Statistical RNG tests—performed at power-up.~~ |
+| Design Assurance | Configuration management (CM). Secure installation and generation. Design and policy correspondence. Guidance documents. | CM system. Secure distribution. Functional specification. | High-level language implementation. | Formal model. Detailed explanations (informal proofs) Preconditions and postconditions. |
+| Mitigation of Other Attacks | Specification of mitigation of attacks for which no testable requirements are currently available | | | |
+
+Table 1: Summary of security requirements

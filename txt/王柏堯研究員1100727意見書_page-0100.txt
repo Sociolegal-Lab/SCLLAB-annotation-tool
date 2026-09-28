@@ -1,0 +1,52 @@
+Approved deterministic RNG or 2) to generate initialization vectors (IVs) for Approved security
+function(s). The seed and seed key shall not have the same value.
+
+Documentation shall specify each RNG (Approved and non-Approved) employed by a cryptographic
+module.
+
+4.9.1　Power-Up Tests
+
+Power-up tests shall be performed by a cryptographic module when the module is powered up (after being
+powered off, reset, rebooted, etc.). The power-up tests shall be initiated automatically and shall not require
+operator intervention. When the power-up tests are completed, the results (i.e., indications of success or
+failure) shall be output via the “status output” interface. All data output via the data output interface shall
+be inhibited when the power-up tests are performed.
+
+In addition to performing the power-up tests when powered up, a cryptographic module shall permit
+operators to initiate the tests on demand for periodic testing of the module. Resetting, rebooting, and power
+cycling are acceptable means for the on-demand initiation of power-up tests.
+
+A cryptographic module shall perform the following power-up tests: cryptographic algorithm test,
+software/firmware integrity test, and critical functions test.
+
+~~SECURITY LEVELS 1 AND 2~~
+
+~~For Security Levels 1 and 2, a cryptographic module shall perform the following power-up tests:
+cryptographic algorithm test, software/firmware integrity test, and critical functions test. Statistical random
+number generator tests may be performed by the cryptographic module but are not required at Security
+Levels 1 and 2.~~
+
+~~SECURITY LEVEL 3~~
+
+~~For Security Level 3, in addition to the tests specified for Security Levels 1 and 2, a cryptographic module
+shall perform all of the statistical random number tests on demand by the operator and may perform the
+tests when the module is powered up.~~
+
+~~SECURITY LEVEL 4~~
+
+~~For Security Level 4, in addition to the tests specified for Security Levels 1,2 and 3, a cryptographic
+module shall also perform all of the statistical random number generator tests when the module is powered
+up.~~
+
+Cryptographic algorithm test. A cryptographic algorithm test using a known answer shall be conducted for
+all ~~modes~~ cryptographic functions (e.g., encryption, decryption, authentication, and ~~deterministic~~ random
+number generation) of each Approved cryptographic algorithm implemented by a cryptographic module. A
+known-answer test involves operating the cryptographic algorithm on data for which the correct output is
+already known and comparing the calculated output with the previously generated output (the known
+answer). If the calculated output does not equal the known answer, the known-answer test shall fail.
+
+Cryptographic algorithms whose outputs vary for a given set of inputs (e.g., the Digital Signature
+Algorithm) shall be tested using a known-answer test or shall be tested using a pair-wise consistency test
+(specified below). Message digest algorithms shall have an independent known-answer test or the known-
+answer test shall be included with the associated cryptographic algorithm test (e.g., the Digital Signature
+Standard).

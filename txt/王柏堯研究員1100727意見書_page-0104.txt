@@ -1,0 +1,35 @@
+Change Notice 3
+
+FIPS PUB 140-2, SECURITY REQUIREMENTS FOR CRYPTOGRAPHIC MODULES
+
+U.S. DEPARTMENT OF COMMERCE
+NATIONAL INSTITUTE OF STANDARDS AND TECHNOLOGY
+Gaithersburg, MD 20899
+
+DATE OF CHANGE: 2002 December 03
+
+TITLE: Pair-Wise Consistency Test
+
+Federal Information Processing Standard (FIPS) 140-2, Security Requirements for Cryptographic Modules, specifies the security requirements that will be satisfied by a cryptographic module utilized within a security system protecting sensitive but unclassified information (hereafter referred to as sensitive information).
+
+This change notice provides corrections to the requirements for pair-wise consistency test for public/
+private keys used for key agreement. These corrections involve paragraphs 4.9.2 of FIPS 140-2.
+
+In the corrected paragraphs below, the deleted text is struck out and the added text is underlined.
+
+The Derived Test Requirements for FIPS 140-2 is also affected by these corrections.
+
+Questions regarding this change notice may be directed to Annabelle Lee
+(annabelle.lee@nist.gov, 301-975-2941).
+
+4.9.2    Conditional Tests
+
+Conditional tests shall be performed by a cryptographic module when the conditions specified for the following tests occur: pair-wise consistency test, software/firmware load test, manual key entry test, continuous random number generator test, and bypass test.
+
+Pair-wise consistency test (for public and private keys). If a cryptographic module generates public or private keys, then the following pair-wise consistency tests for public and private keys shall be performed:
+
+1. If the keys are used to perform <u>an approved</u> key transport <u>method</u> ~~or encryption~~, then the public key shall encrypt a plaintext value. The resulting ciphertext value shall be compared to the original plaintext value. If the two values are equal, then the test shall fail. If the two values differ, then the private key shall be used to decrypt the ciphertext and the resulting value shall be compared to the original plaintext value. If the two values are not equal, the test shall fail.
+
+~~2. If the keys are used to perform key agreement, then the cryptographic module shall create a second, compatible key pair. The cryptographic module shall perform both sides of the key agreement algorithm and shall compare the resulting shared values. If the shared values are not equal, the test shall fail.~~
+
+2. If the keys are used to perform the calculation and verification of digital signatures, then the consistency of the keys shall be tested by the calculation and verification of a digital signature. If the digital signature cannot be verified, the test shall fail.

@@ -1,0 +1,20 @@
+最有效率的程式，並公開程式碼供大眾檢視及使用。在資料加密的過程中，密碼系統提供加密和解密演算法，並不改寫資料。只有密碼程式需要讀取資料，並對資料進行加密和解密等操作。
+
+前述密碼程式建構之過程中，公開檢視是不可缺少之要件。自提出密碼系統的論文開始，加解密演算法就被密碼學家及解密專家檢視。其目的在於避免任何數學推論中有意或是無意的疏失，造成資訊安全上的漏洞。而在加解密演算法經過檢視後，密碼程式設計師所編寫的密碼程式也要經過檢視，以避免程式撰寫中有意或無意之過失，造成資訊系統安全上的破口。
+
+筆者關於資訊安全上之研究，在於提供形式化技術以檢視密碼程式中之錯誤。過去的研究中，曾經檢視多個廣為使用的密碼程式庫，也曾經找出程式庫中密碼程式的錯誤¹。去年底亦受美國國家標準局人員邀請，以虛擬會談的方式，分享形式化技術在密碼系統上之應用²。對於密碼程式之安全性略知一二，也看到國際專家（密碼學家、解密專家、密碼程式設計師）開發密碼系統及程式之過程。即使是舉世公認的密碼專家，也必須將其開發的密碼系統公開以供檢視，否則無法令人分析其密碼系統之安全性，更遑論被廣泛使用。
+
+另以美國國家標準局舉辦之後量子密碼系統標準制定徵選為例，說明公開檢視之普遍性³。為了因應未來量子電腦的出現，美國國家標準局2017年向全世界廣徵足以抵禦量子計算攻擊之密碼系統。所有參加之後量子密碼系統，必須提出詳細文件，說明其演算法，並提供程式碼，置於網頁接受公開檢視。在徵選之過程中，亦有解密專家提出各式攻擊，導致一些後量子密碼系統放棄徵選。美國國家標準局自最初
+
+¹ Fu, Y.-F. F., Liu, J., Shi, X., Tsai, M.-H., Wang, B.-Y. W., & Yang, B.-Y. (2019). Signed Cryptographic
+Program Verification with Typed Cryptoline. ACM SIGSAC Conference on Computer and
+Communications Security (pp. 1591-1606). London, UK: ACM.
+Liu, J., Shi, X., Tsai, M.-H., Wang, B.-Y., & Yang, B.-Y. (2019). Verifying Arithmetic in
+Cryptographic C Programs. IEEE/ACM International Conference on Automated Software
+Engineering (pp. 552-564). San Diego, USA: IEEE/ACM.
+
+² Mouha, N., & Hailane, A. (2021, January). The Application of Formal Methods to Real-World
+Cryptographic Algorithms, Protocols, and Systems. IEEE Computer, 54, pp. 29-38.
+doi:10.1109/MC.2020.3033613
+³ National Institute of Standards and Technology. (2021). Post-Quantum Cryptography. Retrieved from
+https://csrc.nist.gov/projects/post-quantum-cryptography

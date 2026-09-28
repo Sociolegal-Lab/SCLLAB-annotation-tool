@@ -1,0 +1,39 @@
+4.4　Finite State Model
+
+The operation of a cryptographic module shall be specified using a finite state model (or equivalent) represented by a state transition diagram and/or a state transition table.
+
+The state transition diagram and/or state transition table includes:
+
+• all operational and error states of a cryptographic module,
+
+• the corresponding transitions from one state to another,
+
+• the input events that cause transitions from one state to another, and
+
+• the output events resulting from transitions from one state to another.
+
+A cryptographic module shall include the following operational and error states:
+
+Power on/off states. States for primary, secondary, or backup power. These states may distinguish between power sources being applied to a cryptographic module.
+
+Crypto officer states. States in which the crypto officer services are performed (e.g., cryptographic initialization and key management).
+
+Key/CSP entry states. States for entering cryptographic keys and CSPs into the cryptographic module.
+
+User states. States in which authorized users obtain security services, perform cryptographic operations, or perform other Approved or non-Approved functions.
+
+Self-test states. States in which the cryptographic module is performing self-tests.
+
+Error states. States when the cryptographic module has encountered an error (e.g., failed a self-test or attempted to encrypt when missing operational keys or CSPs). Error states may include "hard" errors that indicate an equipment malfunction and that may require maintenance, service or repair of the cryptographic module, or recoverable "soft" errors that may require initialization or resetting of the module. Recovery from error states shall be possible except for those caused by hard errors that require maintenance, service, or repair of the cryptographic module.
+
+A cryptographic module may contain other states including, but not limited to, the following:
+
+Bypass states. States in which a bypass capability is activated and services are provided without cryptographic processing (e.g., transferring plaintext through the cryptographic module).
+
+Maintenance states. States for maintaining and servicing a cryptographic module, including physical and logical maintenance testing. If a cryptographic module contains a maintenance role, then a maintenance state shall be included.
+
+Documentation shall include a representation of the finite state model (or equivalent) using a state transition diagram and/or state transition table that shall specify:
+
+• all operational and error states of a cryptographic module,
+
+• the corresponding transitions from one state to another,

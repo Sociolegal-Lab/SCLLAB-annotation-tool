@@ -1,0 +1,12 @@
+NIST　　National Institute of Standards and Technology
+NTIS　　National Technical Information Service
+PIN　　 Personal Identification Number
+PROM　 Programmable Read-Only Memory
+RAM　　Random Access Memory
+RNG　　Random Number Generator
+ROM　　Read-Only Memory
+SPA　　 Simple Power Analysis
+TOE　　 Target of Evaluation
+TSF　　 Target of Evaluation Security Functions
+TSP　　 Target of Evaluation Security Policy
+URL　　Uniform Resource Locator

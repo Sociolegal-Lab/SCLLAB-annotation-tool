@@ -1,0 +1,52 @@
+CNS 27001, X 6049　　　　　　　　　－24－
+
+fraud　詐欺
+
+－H－
+handling　處置
+hazard　危害
+
+－I－
+identification　識別
+impact　衝擊
+implementation　實作
+incident　事故
+information security　資訊安全
+integrity　完整性
+interested parties　關注方
+intellectual property right, IPR　智慧財產權
+information security management system, ISMS　資訊安全管理系統
+
+－K－
+key management　金鑰管理
+
+－L－
+label　標籤；標示
+log　日誌；存錄
+
+－M－
+maintenance　維持；維護
+malware　惡意軟體
+media　媒體
+misuse　誤用
+mobile device　行動裝置
+monitor　監視
+
+－N－
+non-disclosure agreement　保密協議
+
+－O－
+objective　目標
+operation　運作；作業；操作
+outsource　委外
+
+－P－
+password　通行碼
+policy　政策
+privilege　特權
+procedure　程序
+
+－R－
+registration　註冊
+
+本標準由標準檢驗局授權中華電信數據通信分公司銷售　下載帳號 28449818　下載時間 2017/07/17 11:58:54　下載位置 140.109.168.97

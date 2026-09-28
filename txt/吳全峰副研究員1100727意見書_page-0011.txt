@@ -1,0 +1,27 @@
+表三　英國年個人資料保護法之重大公共利益類別
+
+| Conditions | Show substantial public interest | Justify why no consent | Appropriate policy document |
+|---|---|---|---|
+| Statutory and government purposes | Y | N | Y |
+| Administration of justice and parliamentary purposes | N | N | Y |
+| Equality of opportunity or treatment | N | N | Y |
+| Racial and ethnic diversity at senior levels | N | Y | Y |
+| Preventing or detecting unlawful acts | Y | Y | Y/N* |
+| Protecting the public | Y | Y | Y |
+| Regulatory requirements | Y | Y | Y |
+| Journalism, academia, art and literature | Y | N | N |
+| Preventing fraud | N | N | Y |
+| Suspicion of terrorist financing or money laundering | N | N | Y |
+| Support for individuals with a particular disability or medical condition | Y | Y | Y |
+| Counselling | Y | Y | Y |
+| Safeguarding of children and individuals at risk | Y | Y | Y |
+| Safeguarding of economic well-being of certain individuals | Y | Y | Y |
+| Insurance | Y | Y | Y |
+| Occupational pensions | N | Y | Y |
+| Political parties | N | N | Y |
+| Elected representatives responding to requests | N | Y | Y |
+| Disclosure to elected representatives | N | Y | Y |
+| Informing elected representatives about prisoners | N | N | Y |
+| Publication of legal judgement | N | N | Y |
+| Anti-doping in sport | N | N | Y/N* |
+| Standards of behaviour in sport | Y | Y | Y |

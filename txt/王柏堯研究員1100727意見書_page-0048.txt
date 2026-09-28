@@ -1,0 +1,38 @@
+2.  GLOSSARY OF TERMS AND ACRONYMS
+
+2.1  Glossary of Terms
+
+The following definitions are tailored for use in this standard:
+
+Approved: FIPS-Approved and/or NIST-recommended.
+
+Approved mode of operation: a mode of the cryptographic module that employs only Approved security functions (not to be confused with a specific mode of an Approved security function, e.g., DES CBC mode).
+
+Approved security function: for this standard, a security function (e.g., cryptographic algorithm, cryptographic key management technique, or authentication technique) that is either
+
+a) specified in an Approved standard,
+b) adopted in an Approved standard and specified either in an appendix of the Approved standard or in a document referenced by the Approved standard, or
+c) specified in the list of Approved security functions.
+
+Authentication code: a cryptographic checksum based on an Approved security function (also known as a Message Authentication Code).
+
+Automated key transport: the transport of cryptographic keys, usually in encrypted form, using electronic means such as a computer network (e.g., key transport/agreement protocols).
+
+Compromise: the unauthorized disclosure, modification, substitution, or use of sensitive data (including plaintext cryptographic keys and other CSPs).
+
+Confidentiality: the property that sensitive information is not disclosed to unauthorized individuals, entities, or processes.
+
+Control information: information that is entered into a cryptographic module for the purposes of directing the operation of the module.
+
+Critical security parameter (CSP): security-related information (e.g., secret and private cryptographic keys, and authentication data such as passwords and PINs) whose disclosure or modification can compromise the security of a cryptographic module.
+
+Cryptographic boundary: an explicitly defined continuous perimeter that establishes the physical bounds of a cryptographic module and contains all the hardware, software, and/or firmware components of a cryptographic module.
+
+Cryptographic key (key): a parameter used in conjunction with a cryptographic algorithm that determines
+
+• the transformation of plaintext data into ciphertext data,
+• the transformation of ciphertext data into plaintext data,
+• a digital signature computed from data,
+• the verification of a digital signature computed from data,
+• an authentication code computed from data, or
+• an exchange agreement of a shared secret.

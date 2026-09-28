@@ -1,0 +1,13 @@
+（hindsight bias）、「自我中心偏誤」（egocentric bias）三項，數據顯示法官與素人的偏誤風險程度並無差別⁴。這是因為我們做決定時，必然借用經驗法則（heuristics，或譯「捷思法」）來加速決斷過程，這樣的思考捷徑大多數時候很管用，但有時候會帶來一些不精確的推論，最終導致判決的錯誤⁵。其中，加拿大學者 Emma Cunliffe 的研究尤其值得注意，因為美國的刑事訴訟制度多半由陪審團來認定事實，法官的角色與功能與台灣差異很大，幾乎無法類比；但加拿大百分之九十九的刑案都是法官審判而沒有陪審團，因此加拿大的法官和台灣法官一樣，負責根據證據來認定事實，並且必須完整交代論理的過程。不意外地，Cunliffe 的研究也顯示職業法官無法倖免於各式認知偏誤⁶。更糟的是，諸多認知偏誤之上還有一種「偏誤盲點」（bias blind spot），就是低估自己的偏誤、高估別人的偏誤⁷；聰明人也無法避免偏誤盲點，甚至因為自恃聰明、認為自己可以倖免，而陷得愈深⁸。
+
+　　認知錯覺多半不是故意的，為數眾多的心理學研究在醫生、會計師、律師、房屋估價師、工程師等各種人身上發現認知錯覺，法官只是各行各業中的一種。就像美國法學家 Jerome Frank 說的，「到頭來我們只能面對這個事實：法官也是人。」
+
+⁴ Guthrie, C., Rachlinski, J. J., & Wistrich, A. J. (2001). Inside the judicial mind. Cornell Law Review, 86(4), 777-830. 其他類似研究尚多，例如：John C. Anderson, D. Jordan Lowe, & Philip MJ. Reckers, Evaluation of Auditor Decisions: Hindsight Bias Effects and the Expectation Gap, 14 J. ECON. PSYCHOL. 711, 725-27 (1993); Reid Hastie & W. Kip Viscusi, What Juries Can't Do Well: The Jury's Performance as a Risk Manager, 40 ARiz. L. REV. 901, 904-08 (1998)等等。
+
+⁵ Guthrie, C., Rachlinski, J. J., & Wistrich, A. J. (2002). Judging by heuristic: cognitive illusions in judicial decision making. Judicature, 86(1), 44-50.
+
+⁶ Emma Cunliffe, Judging, fast and slow: using decision-making theory to explore judicial fact determination. THE INTERNATIONAL JOURNAL OF EVIDENCE & PROOF (2014) 18 E&P 139–180.
+
+⁷ Emily Pronin, Perception and Misperception of Bias in Human Judgment, 11 TRENDS COGNITIVE SCI. 37, 39 (2006).
+
+⁸ Richard F. West & Russell J. Meserve, Cognitive Sophistication Does Not Attenuate Bias Blind Spot, 103 J. PERSONALITY & SOC. PSYCHOL. 506, 515 (2012).

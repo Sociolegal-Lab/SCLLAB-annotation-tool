@@ -1,0 +1,18 @@
+CNS 27001, X 6049　　　　　　　　－26－
+
+參考資料
+
+[1] CNS 27002 資訊技術－安全技術－資訊安全管理之作業規範
+[2] CNS 27003 資訊技術－安全技術－資訊安全管理系統實作指引
+[3] CNS 27004 資訊技術－安全技術－資訊安全管理－量測
+[4] CNS 27005 資訊技術－安全技術－資訊安全風險管理
+[5] CNS 31000 風險管理－原則與指導綱要
+[6] ISO/IEC Directives - Part 1 Consolidated ISO Supplement - Procedures specific to
+　　ISO 2012
+
+相對應國際標準
+ISO/IEC 27001:2013 Information technology – Security techniques – Information
+　　　　　　　　　security management systems – Requirements
+
+修訂日期
+第一次修訂：96 年 10 月 24 日

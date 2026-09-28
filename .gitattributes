@@ -1,0 +1,9 @@
+# 校對文字一律 LF, 避免 Windows 的 git 把換行轉成 CRLF 造成整份 diff
+*.txt       text eol=lf
+*.py        text eol=lf
+*.md        text eol=lf
+*.sh        text eol=lf
+*.command   text eol=lf
+# Windows 批次檔必須是 CRLF
+*.bat       text eol=crlf
+*.jpg       binary

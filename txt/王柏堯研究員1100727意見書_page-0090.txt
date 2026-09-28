@@ -1,0 +1,31 @@
+• Equivalence of variables should not be used to permit multiple memory usage for conflicting purposes.
+
+• Robust command parsing and range checking mechanisms should be implemented to guard against malformed requests, out-of-range parameters, and I/O buffer overflows.
+
+IN-LINE DOCUMENTATION
+
+• Each software module, procedure, and major programming construct should be documented specifying the functions performed along with a (formal or informal) specification of preconditions and postconditions.
+
+• Each loop should be preceded by a convincing argument (as a comment) that termination is guaranteed.
+
+• Variable names should be used in only one context within the same procedure.
+
+• Each variable should have an associated comment identifying the purpose of the variable and noting the range of allowable values, including if the range is unrestricted.
+
+• If concurrency is employed, the documentation should specify how limits are enforced on the maximum allowable degree of concurrency and how accesses to shared data are synchronized in order to avoid (possibly undetected) run-time errors.
+
+ASSEMBLY LANGUAGE
+
+The following additional programming practices should be used when the implementation is in assembly language.
+
+• All code should be position independent except where appropriate security concerns, efficiency, or hardware constraints require position dependency.
+
+• All register references should use symbolic register names.
+
+• Self-modifying code should not be used.
+
+• All procedures should be responsible for saving and restoring the contents of any register that is used within the procedure.
+
+• Control transfer instructions should not use numeric literals.
+
+• Each unit should contain comments describing register use in the unit.

@@ -1,0 +1,21 @@
+進行再識別評估作為例子。這引起了負責 Heritage Health Prize 去識別化的 Emam 為文回應⁶。
+
+我舉這個例子想說明幾件事：1. 去識別化的效果在學術界仍有不同的看法；2. 去識別化還沒有完整的數學模式；3. 若以去識別化為基礎認為不再是個人的資料故無隱私問題需相當謹慎；4. 去識別化仍有其價值但須嚴謹且明確說明所做的假設。
+
+從 2014 年至今，去識別與再識別的技術有許多的進展，但概括來說前述的看法仍然是正確的。另外近來再識別的研究指出即使是抽樣的資料，只要資料夠多人數夠多仍然會有不可忽略的風險能夠再識別個人⁷。
+
+IV 個資風險分析範例
+對於個資經過去識別化後的風險分析是許誤解的來源。健保署也可能做了類似的分析，但因為筆者並未得到相關資訊，因此利用下面的例子來說明之⁸。
+
+年四月，加州的醫療照護組織 Heritage Provider Network(NPH) 舉辦了一個健康資料分析競賽，目的是建構模型來預測病人明年住院的天數。所提供的資料為去前年去年與今年的申報資料(claim data)。資料集包括了十三萬三千名病人。
+
+作者提出了三種可能的再識別手段分別是愛八卦鄰居、與選舉人登記資料(voter’s registration data)比對，以及與 state in patient data 比對。這三種模式的重點是限制攻擊者的背景資訊，也就是除了公開的資料集以外可能蒐集到的資訊。在分析去識別化資料是否已經足以保護個人，如何處理背景資訊（有些文獻稱為輔助資料，auxiliary data）。最後的分析結果發現約 0.84%的人遇到八卦的鄰居可能會被識別出來，而其他兩個攻擊的成功率都極低。
+
+⁶ Khaled El Emam and Luk Arbuckle Why de-identification is a key solution for sharing data responsibly
+July, 24 2014
+⁷ Rocher, L., Hendrickx, J.M. & de Montjoye, YA. Estimating the success of re-identifications in incomplete
+datasets using generative models. Nature Communication 10, 3069 (2019).
+https://doi.org/10.1038/s41467-019-10933-3
+⁸ El Emam K, Arbuckle L, Koru G, Eze B, Gaudette L, Neri E, Rose S, Howard J, Gluck J De-identification
+Methods for Open Health Data: The Case of the Heritage Health Prize Claims Dataset
+J Med Internet Res 2012;14(1):e33

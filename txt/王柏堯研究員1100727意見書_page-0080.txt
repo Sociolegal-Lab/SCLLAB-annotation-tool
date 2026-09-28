@@ -1,0 +1,51 @@
+Continuous random number generator test. If a cryptographic module employs Approved or non-
+Approved RNGs in an Approved mode of operation, the module shall perform the following continuous
+random number generator test on each RNG that tests for failure to a constant value.
+
+1. If each call to a RNG produces blocks of n bits (where n > 15), the first n-bit block generated
+   after power-up, initialization, or reset shall not be used, but shall be saved for comparison with
+   the next n-bit block to be generated. Each subsequent generation of an n-bit block shall be
+   compared with the previously generated block. The test shall fail if any two compared n-bit
+   blocks are equal.
+
+2. If each call to a RNG produces fewer than 16 bits, the first n bits generated after power-up,
+   initialization, or reset (for some n > 15) shall not be used, but shall be saved for comparison with
+   the next n generated bits. Each subsequent generation of n bits shall be compared with the
+   previously generated n bits. The test fails if any two compared n-bit sequences are equal.
+
+Bypass test. If a cryptographic module implements a bypass capability where the services may be
+provided without cryptographic processing (e.g., transferring plaintext through the module), then the
+following bypass tests shall be performed to ensure that a single point of failure of module components
+will not result in the unintentional output of plaintext:
+
+1. A cryptographic module shall test for the correct operation of the services providing
+   cryptographic processing when a switch takes place between an exclusive bypass service and an
+   exclusive cryptographic service.
+
+2. If a cryptographic module can automatically alternate between a bypass service and a
+   cryptographic service, providing some services with cryptographic processing and some services
+   without cryptographic processing, then the module shall test for the correct operation of the
+   services providing cryptographic processing when the mechanism governing the switching
+   procedure is modified (e.g., an IP address source/destination table).
+
+Documentation shall specify the mechanism or logic governing the switching procedure.
+
+4.10    Design Assurance
+
+Design assurance refers to the use of best practices by the vendor of a cryptographic module during the
+design, deployment, and operation of a cryptographic module, providing assurance that the module is
+properly tested, configured, delivered, installed, and developed, and that the proper operator guidance
+documentation is provided. Security requirements are specified for configuration management, delivery
+and operation, development, and guidance documents.
+
+4.10.1    Configuration Management
+
+Configuration management specifies the security requirements for a configuration management system
+implemented by a cryptographic module vendor, providing assurance that the functional requirements and
+specifications are realized in the implementation.
+
+A configuration management system shall be implemented for a cryptographic module and module
+components within the cryptographic boundary, and for associated module documentation. Each version of
+each configuration item (e.g., cryptographic module, module components, user guidance, security policy,
+and operating system) that comprises the module and associated documentation shall be assigned and
+labeled with a unique identification number.

@@ -1,0 +1,13 @@
+該個人⁵。換言之，加密之有效性並不一定能完全等同於再識別風險之降低（或隱私保障）。
+
+（3）近期則有澳洲學者於 2017 年之研究，將政府宣稱已完成加密/去識別化之健保資料加以測試，在不須將加密資料解密之前提下，仍可透過與個人相關且未加密之資料再識別 7 位澳洲公眾人物，並將其與加密/去識別化之健保資料加以串接⁶。澳洲健康部在事件發生之後馬上停止提供健康資料，並且再度評估開放敏感性特種個資使用的可行性。
+
+因此，目前衛福部說明其針對健保署所傳送資料之機敏資料欄位代碼（如身分證字號、醫療院所代碼、申報日期、就醫日期等）進行第一次加密，並以流水碼對照方式進行第二次加密，於申請應用時再針對資料檔流水碼加密欄位—案號進行第三次加密，這些加密動作均係針對特定欄位重複進行加密，即令加密程序與硬體符合美國聯邦資訊處理標準 FIPS（Federal Information Processing Standards）140-2 Level 3 國際資訊安全標準，僅能表示這些特定機敏資料欄位之資訊安全保障已能達一定程度，而第三方可能不易重新還原這些欄位代碼（議題一）；但這些複雜之加密技術也僅止於還原這些機敏資料欄位之難度提升，但卻不能排除第三人可在不需還原這些欄位之前提下，透過比對其他資料之方式再識別特定個人（議題二）。健保署或稱其亦刪除敏感資料（如僅列出資料當事人之生年，並刪除日期），或可降低透過比對再識別之風險；但在目前科技下，相關技術仍可利用所謂「非敏感資料」進行再識別（如在 Netflix Prize Data Study 之案例中僅利用電影評比）。故歐盟「個人資料保護指令第二九條個人資料保護工作小組」（Article 29 Data Protection Working Party）於二〇一四年所發布之「第二一六號有關個人資料匿名技術意見書」（Opinion 05/2014 on Anonymisation Techniques，簡稱 WP 216）⁷便明確說明，資料控制者通常認為刪除或替換一個或多個識別因子便足以使資料集去識別化，但許多例子已表明情況並非如此，若準識別因子（quasi-identifiers）仍保留在資料集中，或資料屬性仍然能夠識別個人，那麼簡單地更改識別因子（如身分證字號）並不能避免再識別風險。
+
+因此，衛福部或健保署以特定欄位（如身分證字號、醫療院所代碼、申報日期、就醫日期等）之加密技術是否完備，作為整體資料庫再識別風險之判斷基礎，實已將加密（議題一）與再識別風險（議題二）加以混淆；但在風險評估上，這兩項議題應分別判斷較為妥適。尤其在再識別技術大幅進步之近代，去識別化技術早已跳脫傳統針對單一變項加密之模式，因為對個人單一類別資料（如身分證字號）之重組（仍為目前健保署之主要加密技術），便被認為在目前之科技發展下可能已經無法因應隱私保障之挑戰⁸。近期發展
+
+⁵ See generally Arvind Narayanan & Vitaly Shmatikov, How to Break the Anonymity of the Netflix Prize Dataset, arVix, Oct. 16, 2006, at 1, http://arxiv.org/abs/cs/0610105v1 (v.1).
+⁶ Re-identification possible with Australian de-identified Medicare and PBS open data,
+https://www.zdnet.com/article/re-identification-possible-with-australian-de-identified-medicare-and-pbs-open-data/#:~:text=ZDNet%20Academy-,Re%2Didentification%20possible%20with%20Australian%20de%2Didentified%20Medicare%20and%20PBS,in%20an%20open%20medical%20dataset
+⁷ Article 29 Data Protection Working Party, Opinion 05/2014 on anonymization Techniques (hereinafter WP216) (2014), available at http://ec.europa.eu/justice/data-protection/article-29/documentation/opinion-recommendation/files/2014/wp216_en.pdf (last visited Aug. 8, 2021).
+⁸ See e.g., Paul Ohm, Broken Promises of Privacy: Responding to the Surprising Failure of Anonymization, 57 UCLA L. Rev. 1701, 1703-44 (2010).

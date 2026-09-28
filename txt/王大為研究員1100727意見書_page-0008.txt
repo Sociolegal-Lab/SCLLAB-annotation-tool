@@ -1,0 +1,26 @@
+identify patients in the dataset, contact patients, or link the
+HHP data with other datasets that would add demographic,
+socioeconomic, or clinical data about the patients (where such
+data could make the risk of re-identification much higher).
+
+Assumption: It would not be possible for an adversary to know
+whether the record for a particular patient was in the HHP
+dataset. If an adversary made a guess, it would be equal to the
+sampling fraction. Most patients would themselves not know
+whether they were members of HPN, and therefore the most
+realistic sampling fraction to use would be from the population
+of counties in California covered by HPN. However, to err on
+the conservative side, we assumed that an adversary would know
+whether a patient was a member of HPN in our calculations of
+re-identification risk.
+
+Assumption: An adversary would have background information
+about only a subset of the claims of a patient in the dataset.
+For example, if a patient had 100 claims, we did not deem it
+plausible for the adversary to know the exact information in
+all of those 100 claims and to use that information for re-
+identification purposes. Rather, we assumed the adversary would
+have information about only a subset of these claims. This has
+previously been referred to as the power of the adversary, and
+various methods have been used to account for power when de-
+identifying transactional data

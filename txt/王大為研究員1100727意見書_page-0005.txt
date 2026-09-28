@@ -1,0 +1,22 @@
+接下來我們概述一下另外一位接受邀請擔任攻擊腳色嘗試再識別的分析報告 ⁹。在他的分析中得到如下的結論：
+
+“I performed my own re-identification analysis with a slightly
+different set of assumptions, one that seems at least as
+realistic to me as the original. In particular, I assumed that
+the adversary knows the year but not the month or day of each
+visit. I was then able to show that one would derive
+dramatically different re-identification probabilities — up
+to 12.5% of members”
+
+12.5% 和 084% 有著相當大的差距，而得到天壤之別的結論的原因為 “with slightly different set of assumptions”。因此爭辯這兩個結論的對錯實際上要爭辯的是雙方誰所做的假設比較「合理」。
+
+從以上的資訊，我們可以發現去識別化過程與其風險分析並沒有一致的標準，而且不同的假設可能可以導致相當不同的結果。以保密為由而使去識別化方法與風險分析無法由第三方檢視，是相當不合適的作法。此外利用風險認定都有爭議的方法來論述這些資料無從識別個人因此不再視為個資，並不恰當。
+
+V 尊重自主的技術
+
+在過去的討論中，常聽到一個論述為尊重個人自主權的機制可能行政成本太高。在此提出利用提供選擇退出(option-out)的機制，可以達到尊重個人自主；又能讓社會在以資料為核心的競爭中保有競爭力。簡單的說選擇退出機制就是一種意願表達的機制，目前疫苗注射登記系統也有相同的功能。因此建構這樣的機制來成就台灣成為更尊重個人的社會，實在是相當划算的事情。而最需要心力與資源的是與人民溝通資料的重要性，以及個人資料將如何受到保護。如此一來去識別化技術可以做為增加的保障，而不需要勉強做為已經無法識別個人因此非個資的論述基礎的技術基礎。
+
+VI 結論
+
+⁹ Arvind Narayanan An Adversarial Analysis of the Reidentifiability of the Heritage Health Prize Dataset
+http://randomwalker.info/publications/heritage-health-re-identifiability.pdf

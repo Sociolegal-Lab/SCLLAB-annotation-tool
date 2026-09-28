@@ -1,0 +1,40 @@
+CHANGE NOTICES
+
+Change Notice 1 (Superseded by Change Notice 2)
+
+FIPS PUB 140-2, SECURITY REQUIREMENTS FOR CRYPTOGRAPHIC MODULES
+
+U.S. DEPARTMENT OF COMMERCE
+NATIONAL INSTITUTE OF STANDARDS AND TECHNOLOGY
+Gaithersburg, MD 20899
+
+DATE OF CHANGE: 2001 October 10
+
+Federal Information Processing Standard (FIPS) 140-2, Security Requirements for Cryptographic Modules, specifies the security requirements that will be satisfied by a cryptographic module utilized within a security system protecting sensitive but unclassified information (hereafter referred to as sensitive information).
+
+This change notice provides a correction to the required intervals for the length of runs test indicated in Table 3 in Section 4.9.1 Power-Up Tests.
+
+Table 3 as originally published, incorrectly specified the required intervals. The correct intervals are indicated.
+
+Incorrect
+
+Length of Run    Required Interval
+2,343 – 2,657
+1,135 – 1,365
+542 – 708
+251 – 373
+111 – 201
+6+               111 - 201
+
+Correct
+
+Length of Run    Required Interval
+2,315 – 2,685
+1,114 – 1,386
+527 - 723
+240 - 384
+103 - 209
+6+               103 - 209
+
+Questions regarding this change notice may be directed to Annabelle Lee
+(annabelle.lee@nist.gov, 301-975-2941).

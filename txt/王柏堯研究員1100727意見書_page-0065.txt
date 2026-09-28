@@ -1,0 +1,24 @@
+|  | General Requirements for all Embodiments | Single-Chip Cryptographic Modules | Multiple-Chip Embedded Cryptographic Modules | Multiple-Chip Standalone Cryptographic Modules |
+|---|---|---|---|---|
+| Security Level 1 | Production-grade components (with standard passivation). | No additional requirements. | If applicable, production-grade enclosure or removable cover. | Production-grade enclosure |
+| Security Level 2 | Evidence of tampering (e.g., cover, enclosure, or seal). | Opaque tamper-evident coating on chip or enclosure. | Opaque tamper-evident encapsulating material or enclosure with tamper-evident seals or pick-resistant locks for doors or removable covers. | Opaque enclosure with tamper-evident seals or pick-resistant locks for doors or removable covers. |
+| Security Level 3 | Automatic zeroization when accessing the maintenance access interface. Tamper response and zeroization circuitry. Protected vents. | Hard opaque tamper-evident coating on chip or strong removal-resistant and penetration resistant enclosure. | Hard opaque potting material encapsulation of multiple chip circuitry embodiment or applicable Multiple-Chip Standalone Security Level 3 requirements. | Hard opaque potting material encapsulation of multiple chip circuitry embodiment or strong enclosure with removal/penetration attempts causing serious damage |
+| Security Level 4 | EFP or EFT for temperature and voltage | Hard opaque removal-resistant coating on chip. | Tamper detection envelope with tamper response and zeroization circuitry. | Tamper detection/ response envelope with tamper response and zeroization circuitry. |
+
+Table 2: Summary of physical security requirements
+
+In general, Security Level 1 requires minimal physical protection. Security Level 2 requires the addition of tamper-evident mechanisms. Security Level 3 adds requirements for the use of strong enclosures with tamper detection and response mechanisms for removable covers and doors. Security Level 4 adds requirements for the use of strong enclosures with tamper detection and response mechanisms for the entire enclosure. Environmental failure protection (EFP) or environmental failure testing (EFT) is required at Security Level 4. Tamper detection and tamper response are not substitutes for tamper evidence.
+
+Security requirements are specified for a maintenance access interface when a cryptographic module is designed to permit physical access (e.g., by the module vendor or other authorized individuals).
+
+4.5.1　General Physical Security Requirements
+
+The following requirements shall apply to all physical embodiments.
+
+• Documentation shall specify the physical embodiment and the security level for which the physical security mechanisms of a cryptographic module are implemented.
+
+• Documentation shall specify the physical security mechanisms of a cryptographic module.
+
+• If a cryptographic module includes a maintenance role that requires physical access to the contents of the module or if the module is designed to permit physical access (e.g., by the module vendor or other authorized individual), then:
+
+　❑ a maintenance access interface shall be defined,

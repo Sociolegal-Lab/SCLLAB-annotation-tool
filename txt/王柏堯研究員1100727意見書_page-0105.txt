@@ -1,0 +1,24 @@
+Change Notice 4
+
+FIPS PUB 140-2, SECURITY REQUIREMENTS FOR CRYPTOGRAPHIC MODULES
+
+U.S. DEPARTMENT OF COMMERCE
+NATIONAL INSTITUTE OF STANDARDS AND TECHNOLOGY
+Gaithersburg, MD 20899
+
+DATE OF CHANGE: 2002 December 03
+
+TITLE: Limited Operational Environment
+
+Federal Information Processing Standard (FIPS) 140-2, Security Requirements for Cryptographic Modules, specifies the security requirements that will be satisfied by a cryptographic module utilized within a security system protecting sensitive but unclassified information (hereafter referred to as sensitive information).
+
+This change notice provides a correction to the definition of a Limited Operational Environment. This correction involves paragraph 4.6 of FIPS 140-2.
+
+In the corrected paragraph below, the deleted text is struck out and the added text is underlined.
+
+Questions regarding this change notice may be directed to Annabelle Lee
+(annabelle.lee@nist.gov, 301-975-2941).
+
+4.6　Operational Environment
+
+A limited operational environment refers to a static non-modifiable virtual operational environment (e.g., JAVA virtual machine o̶r̶ o̲n̲ a non-programmable PC card) with no underlying general purpose operating system upon which the operational environment uniquely resides.

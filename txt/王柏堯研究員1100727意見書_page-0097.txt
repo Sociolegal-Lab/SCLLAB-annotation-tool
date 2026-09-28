@@ -1,0 +1,17 @@
+APPENDIX E: APPLICABLE INTERNET UNIFORM RESOURCE LOCATORS (URL)
+
+Communications Security Establishment (CSE): http://www.cse-cst.gc.ca
+
+Cryptographic Module Validation Program (CMVP): http://www.nist.gov/cmvp
+
+NIST Information Technology Laboratory (NIST ITL): http://www.nist.gov/itl
+
+NIST Security Publications including FIPS and Special Publications: http://csrc.nist.gov/publications
+
+National Technical Information Service (NTIS): http://www.ntis.gov
+
+National Voluntary Laboratory Accreditation Program (NVLAP): http://ts.nist.gov/nvlap
+
+National Information Assurance Partnership® (NIAP): http://niap.nist.gov/
+
+Validated Protection Profiles: http://niap.nist.gov/cc-scheme/PPRegistry.html

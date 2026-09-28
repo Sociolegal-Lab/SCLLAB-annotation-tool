@@ -1,0 +1,38 @@
+• The operating system shall prevent all operators and executing processes from modifying executing cryptographic processes (i.e., loaded and executing cryptographic program images). In this case, executing processes refer to all non-operating system processes (i.e., operator-initiated), cryptographic or not.
+
+• The operating system shall prevent operators and executing processes from reading cryptographic software stored within the cryptographic boundary.
+
+• The operating system shall provide an audit mechanism to record modifications, accesses, deletions, and additions of cryptographic data and CSPs.
+
+  □ The following events shall be recorded by the audit mechanism:
+
+    – attempts to provide invalid input for crypto officer functions, and
+    – the addition or deletion of an operator to/from a crypto officer role.
+
+  □ The audit mechanism shall be capable of auditing the following events:
+
+    – operations to process audit data stored in the audit trail,
+    – requests to use authentication data management mechanisms,
+    – use of a security-relevant crypto officer function,
+    – requests to access user authentication data associated with the cryptographic module,
+    – use of an authentication mechanism (e.g., login) associated with the cryptographic module,
+    – explicit requests to assume a crypto officer role, and
+    – the allocation of a function to a crypto officer role.
+
+SECURITY LEVEL 3
+
+In addition to the applicable requirements for Security Levels 1 and 2, the following requirements shall apply for Security Level 3.
+
+• All cryptographic software and firmware, cryptographic keys and CSPs, and control and status information shall be under the control of
+
+  □ an operating system that meets the functional requirements specified in the Protection Profiles listed in Annex B. The operating system shall be evaluated at the CC evaluation assurance level EAL3 and include the following additional requirements: Trusted Path (FTP_TRP.1) and Informal TOE Security Policy Model (ADV_SPM.1), or
+
+  □ an equivalent evaluated trusted operating system.
+
+• All cryptographic keys and CSPs, authentication data, control inputs, and status outputs shall be communicated via a trusted mechanism (e.g., a dedicated I/O physical port or a trusted path). If a trusted path is used, the Target of Evaluation Security Functions (TSF) shall support the trusted path between the TSF and the operator when a positive TSF-to-operator connection is required. Communications via this trusted path shall be activated exclusively by an operator or the TSF and shall be logically isolated from other paths.
+
+• In addition to the audit requirements of Security Level 2, the following events shall be recorded by the audit mechanism:
+
+  □ attempts to use the trusted path function, and
+
+  □ identification of the initiator and target of a trusted path.

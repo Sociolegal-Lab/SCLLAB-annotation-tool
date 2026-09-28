@@ -1,0 +1,9 @@
+當法官審理一個他已經審過的案件，他的心理機轉除了以上通則之外，又增加一層「認知失調」（cognitive dissonance）。Leon Festinger 的認知失調理論指出，我們有一個以上的選項而且很難選時，做了選擇以後會懷疑自己選得對不對，如果選錯了，會覺得自己像笨蛋。認知失調幾乎是做決定之後必然隨之而來的情緒，而克服這種不快的情緒，是人的本能之一。決定愈困難，隨之而來的認知失調愈大，去降低認知失調的動機就愈強烈。認知失調對於法官的影響方向未必能夠預測，但重點是他的決策會受到個人心理動機的影響，而非如司法制度所期待他的，純粹考量法律因素來下決定⁹。
+
+　　法官也是人，他做的決定影響別人的生命至鉅，但認知錯覺卻無法避免，怎麼辦？答案亦十分簡單：讓多元觀點進入決策過程¹⁰。繞了一圈，其實就是回頭恪遵司法制度設計的本意：讓其他的法官來看看。不同的法官，不同的心理機轉，或許就有互相牽制激盪的機會。
+
+　　有一個瑞典實驗非常精彩地呈現了確認偏誤（confirmation bias）及其應對策略¹¹。「確認偏誤」指的是做決策時無意識地挑選合乎原先看法的資訊，而忽略或輕視矛盾的訊息，一意孤行，終於形成隧道視野。這實驗有兩組受試者，一組是 64 位瑞典法官，一組是 80 位法學院學生。實驗者想知道羈押的決定會不會觸發有罪的決定，所以他讓每個受試者判八個案子，其中四個讓他自己決定要不要羈押，另外四個由別人決定要不要羈押。結果是：如果這被告是受試者自己決定要羈押的，後續審判時就比較傾向於判有罪，如果是被別人羈押
+
+⁹ Monacell, J. P. (1977). An Application of Cognitive Dissonance Theory to Resentencing and Other Reappearances by the Same Judge. Law and Human Behavior, 1(4), 385–401.
+¹⁰ Guthrie, C., Rachlinski, J. J., & Wistrich, A. J. (2002). Judging by heuristic: cognitive illusions in judicial decision making. Judicature, 86(1), 44-50.
+¹¹ Moa Lidén, Minna Gräns & Peter Juslin (2019) ‘Guilty, no doubt’: detention provoking confirmation bias in judges’ guilt assessments and debiasing techniques, Psychology, Crime & Law, 25:3, 219-247, DOI: 10.1080/1068316X.2018.1511790.

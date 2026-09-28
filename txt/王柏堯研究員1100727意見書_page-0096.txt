@@ -1,0 +1,23 @@
+National Institute of Standards and Technology and Communications Security Establishment, Derived Test Requirements(DTR) for FIPS PUB 140-2, Security Requirements for Cryptographic Modules, available at URL: http://www.nist.gov/cmvp.
+
+National Institute of Standards and Technology, DES Modes of Operation, Federal Information Processing Standards Publication 81, December 2, 1980.
+
+National Institute of Standards and Technology, Digital Signature Standard (DSS), Federal Information Processing Standards Publication 186-2, January 27, 2000.
+
+National Institute of Standards and Technology, Digital Signature Standard Validation System (DSSVS) User’s Guide, June 20, 1997.
+
+National Institute of Standards and Technology, Entity Authentication Using Public Key Cryptography, Federal Information Processing Standards Publication 196, February 18, 1997.
+
+National Institute of Standards and Technology, Guideline for the Use of Advanced Authentication Technology Alternatives, Federal Information Processing Standards Publication 190, September 28, 1994.
+
+National Institute of Standards and Technology and Communications Security Establishment, Implementation Guidance (IG) for FIPS 140-2, available at URL: http://www.nist.gov/cmvp.
+
+National Institute of Standards and Technology, Key Management using ANSI X9.17, Federal Information Processing Standards Publication 171, April 27, 1992.
+
+National Institute of Standards and Technology, Secure Hash Standard, Federal Information Processing Standards Publication 180-1, April 17, 1995.
+
+National Institute of Standards and Technology, Security Requirements for Cryptographic Modules, Federal Information Processing Standards Publication 140-1, January 11, 1994.
+
+Office of Management and Budget, Security of Federal Automated Information Resources, Appendix III to OMB Circular No. A-130, February 8, 1996.
+
+Telecommunications Industry Association, Over-The-Air-Rekeying (OTAR) Protocol, New Technology Standards Project, Digital Radio Technical Standards, TIA/EIA Telecommunications Systems Bulletin, APCO Project 25, TSB102.AACA, January 1996.

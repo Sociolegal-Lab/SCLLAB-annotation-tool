@@ -1,0 +1,35 @@
+Finite state model: a mathematical model of a sequential machine that is comprised of a finite set of input events, a finite set of output events, a finite set of states, a function that maps states and input to output, a function that maps states and inputs to states (a state transition function), and a specification that describes the initial state.
+
+Firmware: the programs and data components of a cryptographic module that are stored in hardware (e.g., ROM, PROM, EPROM, EEPROM or FLASH) within the cryptographic boundary and cannot be dynamically written or modified during execution.
+
+Hardware: the physical equipment within the cryptographic boundary used to process programs and data.
+
+Hash-based message authentication code (HMAC): a message authentication code that utilizes a keyed hash.
+
+Initialization vector (IV): a vector used in defining the starting point of an encryption process within a cryptographic algorithm.
+
+Input data: information that is entered into a cryptographic module for the purposes of transformation or computation using an Approved security function.
+
+Integrity: the property that sensitive data has not been modified or deleted in an unauthorized and undetected manner.
+
+Interface: a logical entry or exit point of a cryptographic module that provides access to the module for logical information flows representing physical signals.
+
+Key encrypting key: a cryptographic key that is used for the encryption or decryption of other keys.
+
+Key establishment: the process by which cryptographic keys are securely distributed among cryptographic modules using manual transport methods (e.g., key loaders), automated methods (e.g., key transport and/or key agreement protocols), or a combination of automated and manual methods (consists of key transport plus key agreement).
+
+Key loader: a self-contained unit that is capable of storing at least one plaintext or encrypted cryptographic key or key component that can be transferred, upon request, into a cryptographic module.
+
+Key management: the activities involving the handling of cryptographic keys and other related security parameters (e.g., IVs and passwords) during the entire life cycle of the keys, including their generation, storage, establishment, entry and output, and zeroization.
+
+Key transport: secure transport of cryptographic keys from one cryptographic module to another module.
+
+Manual key transport: a non-electronic means of transporting cryptographic keys.
+
+Manual key entry: the entry of cryptographic keys into a cryptographic module, using devices such as a keyboard.
+
+Microcode: the elementary processor instructions that correspond to an executable program instruction.
+
+Operator: an individual accessing a cryptographic module or a process (subject) operating on behalf of the individual, regardless of the assumed role.
+
+Output data: information that is produced from a cryptographic module.

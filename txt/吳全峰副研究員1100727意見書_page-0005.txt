@@ -1,0 +1,18 @@
+險檻值，則表示該資料集之利用需暫緩並進一步檢討加密/去識別之技術；而概率低於風險檻值，則表示資料僅具非常小的再識別風險（近於匿名）¹³。
+
+但相對而言，衛福部或健保署對於健保資料庫並未公開其再識別風險評估之詳細機制、操作程序與結果，對於再識別風險檻值亦未與公民社會進行討論，導致公民社會對於攸關其健康之敏感性資料在利用過程中承受之再識別風險並無認識，更遑論提供公民社會足夠之資訊（充權）在隱私保障與資料利用之平衡（風險檻值之設定）進行實質討論。
+
+至若衛福部所稱通過之 ISO27001 驗證證書亦僅係證明「獨立作業區域及雲端化網路資訊系統、語音資料統計管理作業系統運作與維護之安全管理」符合標準，但非再識別之風險評估。
+
+（三）去識別化之概念應細緻區分
+
+進一步，去識別化之定義亦非僅以無法識別「特定」當事人為已足，依歐盟 Article 29 工作小組第 216 號有關匿名化技術意見書，資料經處理後是否達到匿名化（anonymization）狀態之三項判斷依據(風險)：
+
+（1） 是否仍可能辨別特定個人（“single out” an individual）？
+（2） 是否仍可連結至個人相關紀錄（link records “relating” to an individual）？
+（3） 是否仍得從相關資訊推斷至個人（information can be “inferred” concerning an individual）？
+
+若從歐盟之規範反觀健保署對於其所釋出資料之再識別風險判斷，衛福部或健保署似乎仍以「辨別特定個人」作為再識別風險之判斷標準，對於釋出資料是否可能「連結至個人相關紀錄」或「推斷個人」則似未有進一步說明。但對於去識別化過於單一之定義難稱妥適，因不同加密技術在前述不同再識別概念下之風險判斷並不相同（見表一），故針對不同資料庫在不同加密技術下產生之再識別風險，理論上應該要有較為細緻之說明與論述；但就目前健保署所釋出之公開資料中，未見到較為細緻之再識別風險評估報告，故無從得知目前健保署所採加密技術針對不同再識別風險之評估值為何。且就個資法第二條第一款所稱「直接或間接方式識別該個人」作為個人資料之判斷標準，亦難推導出僅有「辨別特定個人」方符合個資法之個人資料定義，若能從健保署所提供之資料庫中「連結至個人相關紀錄」或「推斷個人」，則該資料仍應屬廣義上得「識別」個人之資料。
+
+¹³ EMA 基於 IOM 報告之建議，將風險檻值設定為 0.09。EMA, External guidance on the implementation of the European Medicines Agency policy on the publication of clinical data for medicinal products for human use, 49, 2018,
+https://www.ema.europa.eu/en/documents/regulatory-procedural-guideline/external-guidance-implementation-european-medicines-agency-policy-publication-clinical-data_en-3.pdf

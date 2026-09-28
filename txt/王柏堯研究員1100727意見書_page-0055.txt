@@ -1,0 +1,17 @@
+3. FUNCTIONAL SECURITY OBJECTIVES
+
+The security requirements specified in this standard relate to the secure design and implementation of a cryptographic module. The requirements are derived from the following high-level functional security objectives for a cryptographic module:
+
+• To employ and correctly implement the Approved security functions for the protection of sensitive information.
+
+• To protect a cryptographic module from unauthorized operation or use.
+
+• To prevent the unauthorized disclosure of the contents of the cryptographic module, including plaintext cryptographic keys and CSPs.
+
+• To prevent the unauthorized and undetected modification of the cryptographic module and cryptographic algorithms, including the unauthorized modification, substitution, insertion, and deletion of cryptographic keys and CSPs.
+
+• To provide indications of the operational state of the cryptographic module.
+
+• To ensure that the cryptographic module performs properly when operating in an Approved mode of operation.
+
+• To detect errors in the operation of the cryptographic module and to prevent the compromise of sensitive data and CSPs resulting from these errors.

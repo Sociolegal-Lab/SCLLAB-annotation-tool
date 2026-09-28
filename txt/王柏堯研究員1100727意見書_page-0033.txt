@@ -1,0 +1,48 @@
+－23－　CNS 27001, X 6049
+
+名詞對照
+
+－A－
+acceptance　驗收；接受
+access control　存取控制
+adequacy　適切性
+application system　應用系統
+approach　導向；作法
+aspect　層面
+assessment　評鑑
+asset　資產
+audit　稽核
+authentication　鑑別
+authorization　授權
+availability　可用性
+awareness　認知
+
+－B－
+business continuity management　營運持續管理
+
+－C－
+classification　分級；保密等級
+communication　溝通或傳達
+compliance　遵循性；遵循
+confidentiality　機密性
+competence　能力
+cryptographic　密碼
+
+－D－
+development　發展；開發
+disaster　災難
+disciplinary　懲處
+disposal　汰除；作廢
+
+－E－
+equipment　設備
+evaluation　評估
+event　事件
+evidence　證據
+
+－F－
+facility　設施
+forum　論壇
+framework　框架
+
+本標準由標準檢驗局授權中華電信數據通信分公司銷售　下載帳號 28449818　下載時間 2017/07/17 11:58:54　下載位置 140.109.168.97

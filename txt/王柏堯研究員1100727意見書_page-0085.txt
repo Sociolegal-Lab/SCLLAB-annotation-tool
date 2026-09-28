@@ -1,0 +1,31 @@
+APPENDIX A: SUMMARY OF DOCUMENTATION REQUIREMENTS
+
+The following check list summarizes the documentation requirements of this standard. All documentation shall be provided to the validation facility by the vendor of a cryptographic module.
+
+CRYPTOGRAPHIC MODULE SPECIFICATION
+
+▪ Specification of the hardware, software, and firmware components of a cryptographic module, specification of the cryptographic boundary surrounding these components, and description of the physical configuration of the module. (Security Levels 1, 2, 3, and 4)
+
+• Specification of any hardware, software, or firmware components of a cryptographic module that are excluded from the security requirements of this standard and an explanation of the rationale for the exclusion. (Security Levels 1, 2, 3, and 4)
+
+• Specification of the physical ports and logical interfaces of a cryptographic module. (Security Levels 1, 2, 3, and 4)
+
+• Specification of the manual or logical controls of a cryptographic module, physical or logical status indicators, and applicable physical, logical, and electrical characteristics. (Security Levels 1, 2, 3, and 4)
+
+• List of all security functions, both Approved and non-Approved, that are employed by a cryptographic module and specification of all modes of operation, both Approved and non-Approved. (Security Levels 1, 2, 3, and 4)
+
+• Block diagram depicting all of the major hardware components of a cryptographic module and component interconnections; including any microprocessors, input/output buffers, plaintext/ciphertext buffers, control buffers, key storage, working memory, and program memory. (Security Levels 1, 2, 3, and 4)
+
+• Specification of the design of the hardware, software, and firmware components of a cryptographic module. (Security Levels 1, 2, 3, and 4)
+
+• Specification of all security-related information, including secret and private cryptographic keys (both plaintext and encrypted), authentication data (e.g., passwords, PINs), CSPs, and other protected information (e.g., audited events, audit data) whose disclosure or modification can compromise the security of the cryptographic module.
+
+• Specification of a cryptographic module security policy including the rules derived from the requirements of this standard and the rules derived from any additional requirements imposed by the vendor). (Security Levels 1, 2, 3, and 4)
+
+CRYPTOGRAPHIC MODULE PORTS AND INTERFACES
+
+• Specification of the physical ports and logical interfaces of a cryptographic module and all defined input and output data paths. (Security Levels 1, 2, 3, and 4)
+
+ROLES, SERVICES, AND AUTHENTICATION
+
+• Specification of all authorized roles supported by a cryptographic module. (Security Levels 1, 2, 3, and 4)

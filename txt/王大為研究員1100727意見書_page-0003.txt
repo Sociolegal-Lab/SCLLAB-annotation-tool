@@ -1,0 +1,35 @@
+lacking certain identifiers are deemed not to be personally
+identifiable information and therefore not covered by such laws
+as the Family Educational Rights and Privacy Act (FERPA).”
+
+值得順帶一提的上述引文的最後一句話，認為很不幸地有些法律誤以
+為匿名化即可讓資料不再是個人資料而不在該法之範疇內。我們的個
+資法是否也落入此窠臼?值得探究。
+
+Ohm 一篇頗受矚目的論文 “Broken Promises of Privacy: Responding
+to The Surprising Failure of Anonymization” ²引發了一連串對於
+去識別化技術的討論與辯論。我以 2014 年的筆戰作為此論辯的縮影，
+在 Cavoukia 的文章， “Setting the Record Straight: De-
+Identification Does Work” ³中認為大多數的 re-identification 事
+件都是因為 de-identification 做得不好或沒有依照標準指引來做而造
+成的，並提出許多媒體的報導多誇大或誤解了學術論文中的敘述。並
+引用 Narayanan 等人所寫的 “Robust de-anonymization of large
+sparse datasets” ⁴對 Netflix 公開資料所做的 re-identification 作
+為例子。同時認為大多數人沒有進行複雜再識別演算的能力 Narayanan
+等人則寫了 “No silver bullet: De-identification still doesn’t
+work” ⁵一文回應，其主要論述為進行再識別者所擁有的輔助資料很難
+在進行去識別化時候做一個合理的界定，且認為再識別風險的評估需
+要許多假設頂多只能算是經驗式的論證(heuristic)而非正規方法的證
+明(formal method)。另外也指出擁有再識別所需的軟體能力者可能有
+百萬之譜。文中提到了 Heritage Health Prize 的公開資料集當初請他
+
+² Ohm, Paul, Broken Promises of Privacy: Responding to the Surprising Failure of Anonymization (August
+13, 2009). UCLA Law Review, Vol. 57, p. 1701, 2010; U of Colorado Law Legal Studies Research Paper No.
+9-12. Available at SSRN: https://ssrn.com/abstract=1450006
+³ Ann Cavoukian and Daniel Castro, Big Data and Innovation, Setting the Record Straight: De-identification
+Does Work June, 16 2014
+http://www2.itif.org/2014-big-data-deidentification.pdf
+⁴ Arvind Narayanan and Vitaly Shmatikov, “Robust De-anonymization of Large Sparse Datasets,”
+Proceedings of the 2008 IEEE Symposium on Security and Privacy, 2008,
+http://www.cs.utexas.edu/~shmat/shmat_oak08netflix.pdf
+⁵ Arvind Narayanan and Edward W. Felten, No silver bullet: De-identification still doesn't work July, 9 2014

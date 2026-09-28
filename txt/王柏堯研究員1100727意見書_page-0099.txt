@@ -1,0 +1,36 @@
+Change Notice 2
+
+FIPS PUB 140-2, SECURITY REQUIREMENTS FOR CRYPTOGRAPHIC MODULES
+
+U.S. DEPARTMENT OF COMMERCE
+NATIONAL INSTITUTE OF STANDARDS AND TECHNOLOGY
+Gaithersburg, MD 20899
+
+DATE OF CHANGE: 2002 December 03
+
+TITLE: Random Number Generator Requirements
+
+Federal Information Processing Standard (FIPS) 140-2, Security Requirements for Cryptographic Modules, specifies the security requirements that will be satisfied by a cryptographic module utilized within a security system protecting sensitive but unclassified information (hereafter referred to as sensitive information).
+
+This change notice provides corrections to the requirements for random number generator used by cryptographic modules. These corrections involve paragraphs 4.7.1 and 4.9.1 of FIPS 140-2. Table 1 – Summary of security requirements has also been corrected and involves the random number generator requirements.
+
+This change notice also provides a correction to the Table 1 – Summary of security requirements. The correction involves text found in the requirements of Physical Security at Security Level 4.
+
+Finally, this change notice replaces the term “modes” used in paragraph 4.9.1 Cryptographic algorithm test with “cryptographic functions” which clarifies the standard.
+
+In the corrected paragraphs and table below, the deleted text is struck out and the added text is underlined.
+
+Change Notice 2 supersedes Change Notice 1.
+
+The Derived Test Requirements for FIPS 140-2 are also affected by these corrections.
+
+Questions regarding this change notice may be directed to Annabelle Lee
+(annabelle.lee@nist.gov, 301-975-2941).
+
+4.7.1    Random Number Generators (RNGs)
+
+A cryptographic module may employ random number generators (RNGs). If a cryptographic module employs Approved or non-Approved RNGs in an Approved mode of operation, the data output from the RNG shall pass the continuous random number generator test as specified in Section 4.9.2. ~~Depending on the security level, the data output from an Approved RNG shall pass all statistical tests for randomness as specified in Section 4.9.1.~~ Approved ~~deterministic~~ RNGs shall be subject to the cryptographic algorithm test in Section 4.9.1. Approved RNGs are listed in Annex C to this standard.
+
+Until such time as an Approved nondeterministic RNG standard exists, nondeterministic RNGs approved for use in classified applications may be used for key generation or to seed Approved deterministic RNGs used in key generation. Commercially available nondeterministic RNGs may be used for the purpose of generating seeds for Approved deterministic RNGs. Nondeterministic RNGs shall comply with all applicable RNG requirements of this standard.
+
+An Approved RNG shall be used for the generation of cryptographic keys used by any Approved security function. The output from a non-Approved RNG may be used 1) as input (e.g., seed, and seed key) to an

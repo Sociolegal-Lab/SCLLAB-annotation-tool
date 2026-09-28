@@ -1,0 +1,37 @@
+• The cryptographic module shall either include environmental failure protection (EFP) features or undergo environmental failure testing (EFT) as specified in Section 4.5.5.
+
+4.5.2    Single-Chip Cryptographic Modules
+
+In addition to the general security requirements specified in Section 4.5.1, the following requirements are specific to single-chip cryptographic modules.
+
+SECURITY LEVEL 1
+
+There are no additional Security Level 1 requirements for single-chip cryptographic modules.
+
+SECURITY LEVEL 2
+
+In addition to the requirements for Security Level 1, the following requirements shall apply to single-chip cryptographic modules for Security Level 2.
+
+• The cryptographic module shall be covered with a tamper-evident coating (e.g., a tamper-evident passivation material or a tamper-evident material covering the passivation) or contained in a tamper-evident enclosure to deter direct observation, probing, or manipulation of the module and to provide evidence of attempts to tamper with or remove the module.
+
+• The tamper-evident coating or tamper-evident enclosure shall be opaque within the visible spectrum.
+
+SECURITY LEVEL 3
+
+In addition to the requirements for Security Levels 1 and 2, the following requirements shall apply to single-chip cryptographic modules for Security Level 3.
+
+Either
+
+• the cryptographic module shall be covered with a hard opaque tamper-evident coating (e.g., a hard opaque epoxy covering the passivation)
+
+or
+
+• the enclosure shall be implemented so that attempts at removal or penetration of the enclosure shall have a high probability of causing serious damage to the cryptographic module (i.e., the module will not function).
+
+SECURITY LEVEL 4
+
+In addition to the requirements for Security Levels 1, 2, and 3, the following requirements shall apply to single-chip cryptographic modules for Security Level 4.
+
+• The cryptographic module shall be covered with a hard, opaque removal-resistant coating with hardness and adhesion characteristics such that attempting to peel or pry the coating from the module will have a high probability of resulting in serious damage to the module (i.e., the module will not function).
+
+• The removal-resistant coating shall have solvency characteristics such that dissolving the coating will have a high probability of dissolving or seriously damaging the module (i.e., the module will not function).

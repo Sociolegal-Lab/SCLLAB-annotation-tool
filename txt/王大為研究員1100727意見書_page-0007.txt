@@ -1,0 +1,40 @@
+Diagnosis: ICD-9-CM code
+
+進行隱私強化的步驟如下
+
+首先進行一些基礎的步驟：
+
+1. 產生代碼（create Psuedonyms）
+
+The MemberID, ProviderID, Vendor, and PCP fields 這幾個欄位都
+轉換成不可逆的代碼 pseudonyms。
+
+2. Top-coding 將少數太高或太低的值轉換成一個區間，例如 95 歲以
+上。雖然常見的經驗法則是切在 99.5%但為了保險將 PayDelay,
+DaysInHospital 這兩個變數切在 99%，也就是超過 99%的值就會是「X
+以上」。
+
+3. 刪除一些申報資料
+
+若某個人的申報資料太多，則很容易被識別出來. 這裡是以 95%為閥值。
+也就是有百分之五的人的申報資料會被刪除一些，作者也提供了一個
+計分方式刪除分數最高的那幾筆申報資料。
+
+4. 移除有高機敏資料的個人，例如 human immunodeficiency virus
+infection 的病人、墮胎病人，以及罕見且容易看出來的病人。
+
+5. Suppression of Provider, and PCP Identifiers, 有些醫院很容易
+識別出來，有些醫院很容易猜到去那裏的患者是什麼毛病。
+
+經過去識別化後有些欄位的值被模糊化了（generalized）。例如：年齡
+以十年為級距，超過八十歲的紀錄成 80+，每年住院總天數紀錄為兩周
+以內及兩周以上。Sepciality, PlaceOfService, CTPCode, Diagnosis
+都被以群組的方式記錄。
+
+在做再識別攻擊演練之前，作者做了如下的假設
+
+Fact: The dataset that was being released for the HHP consisted
+of a small sample of all HPN patients.
+
+Fact: All entrants in the competition had to sign (or click
+through) an agreement saying that they would not attempt to re-

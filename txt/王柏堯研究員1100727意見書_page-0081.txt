@@ -1,0 +1,37 @@
+4.10.2 Delivery and Operation
+
+Delivery and operation specifies the security requirements for the secure delivery, installation, and startup of a cryptographic module, providing assurance that the module is securely delivered to authorized operators, and is installed and initialized in a correct and secure manner.
+
+SECURITY LEVEL 1
+
+For Security Level 1, documentation shall specify the procedures for secure installation, initialization, and startup of a cryptographic module.
+
+SECURITY LEVELS 2, 3, AND 4
+
+For Security Levels 2, 3, and 4, in addition to the requirements of Security Level 1, documentation shall specify the procedures required for maintaining security while distributing and delivering versions of a cryptographic module to authorized operators.
+
+4.10.3 Development
+
+Development specifies the security requirements for the representation of a cryptographic module security functionality at various levels of abstraction from the functional interface to the implementation representation. Development provides assurance that the implementation of a cryptographic module corresponds to the module security policy and functional specification.
+
+Functional specification refers to a high-level description of the ports and interfaces visible to the operator and a high-level description of the behavior of the cryptographic module.
+
+SECURITY LEVEL 1
+
+The following requirements shall apply to cryptographic modules for Security Level 1.
+
+• Documentation shall specify the correspondence between the design of the hardware, software, and firmware components of a cryptographic module and the cryptographic module security policy (see Section 4.1).
+
+• If a cryptographic module contains software or firmware components, documentation shall specify the source code for the software and firmware components, annotated with comments that clearly depict the correspondence of the components to the design of the module.
+
+• If a cryptographic module contains hardware components, documentation shall specify the schematics and/or Hardware Description Language (HDL) listings for the hardware components.
+
+SECURITY LEVEL 2
+
+In addition to the requirements for Security Level 1, the following requirement shall apply to cryptographic modules for Security Level 2.
+
+• Documentation shall specify a functional specification that informally describes a cryptographic module, the external ports and interfaces of the module, and the purpose of the interfaces.
+
+SECURITY LEVEL 3
+
+In addition to the requirements for Security Levels 1 and 2, the following requirements shall apply to cryptographic modules for Security Level 3.

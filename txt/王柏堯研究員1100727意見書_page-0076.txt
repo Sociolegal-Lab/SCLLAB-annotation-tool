@@ -1,0 +1,29 @@
+All encrypted secret and private keys, entered into or output from a cryptographic module and used in an Approved mode of operation, shall be encrypted using an Approved algorithm. Public keys may be entered into or output from a cryptographic module in plaintext form. A cryptographic module shall associate a key (secret, private, or public) entered into or output from the module with the correct entity (i.e., person, group, or process) to which the key is assigned.
+
+Manually-entered cryptographic keys (keys entered using manual methods) shall be verified during entry into a cryptographic module for accuracy using the manual key entry test specified in Section 4.9.2. During key entry, the manually entered values may be temporarily displayed to allow visual verification and to improve accuracy. If encrypted cryptographic keys or key components are manually entered into the cryptographic module, then the plaintext values of the cryptographic keys or key components shall not be displayed.
+
+Documentation shall specify the key entry and output methods employed by a cryptographic module.
+
+SECURITY LEVELS 1 AND 2
+
+For Security Levels 1 and 2, secret and private keys established using automated methods shall be entered into and output from a cryptographic module in encrypted form. Secret and private keys established using manual methods may be entered into or output from a cryptographic module in plaintext form.
+
+SECURITY LEVELS 3 AND 4
+
+For Security Levels 3 and 4:
+
+• Secret and private keys established using automated methods shall be entered into and output from a cryptographic module in encrypted form.
+
+• Secret and private keys established using manual methods shall be entered into or output from a cryptographic module either (1) in encrypted form or (2) using split knowledge procedures (i.e., as two or more plaintext cryptographic key components).
+
+If split knowledge procedures are used:
+
+❑ the cryptographic module shall separately authenticate the operator entering or outputting each key component,
+
+❑ plaintext cryptographic key components shall be directly entered into or output from the cryptographic module (e.g., via a trusted path or directly attached cable) without traveling through any enclosing or intervening systems where the key components may inadvertently be stored, combined, or otherwise processed (see Section 4.2),
+
+❑ at least two key components shall be required to reconstruct the original cryptographic key,
+
+❑ documentation shall prove that if knowledge of n key components is required to reconstruct the original key, then knowledge of any n-1 key components provides no information about the original key other than the length, and
+
+❑ documentation shall specify the procedures employed by a cryptographic module.

@@ -1,0 +1,35 @@
+If a cryptographic module includes two independent implementations of the same cryptographic algorithm, then:
+
+• the known-answer test may be omitted,
+
+• the outputs of two implementations shall be continuously compared, and
+
+• if the outputs of two implementations are not equal, the cryptographic algorithm test shall fail.
+
+Software/firmware integrity test. A software/firmware integrity test using an error detection code (EDC) or Approved authentication technique (e.g., an Approved message authentication code or digital signature algorithm) shall be applied to all validated software and firmware components within a cryptographic module when the module is powered up. The software/firmware integrity test is not required for any software and firmware components excluded from the security requirements of this standard (refer to Section 4.1). If the calculated result does not equal the previously generated result, the software/firmware test shall fail.
+
+If an EDC is used, the EDC shall be at least 16 bits in length.
+
+Critical functions test. Other security functions critical to the secure operation of a cryptographic module shall be tested when the module is powered up as part of the power-up tests. Other critical security functions performed under specific conditions shall be tested as conditional tests.
+
+Documentation shall specify all security functions critical to the secure operation of a cryptographic module and shall identify the applicable power-up tests and conditional tests performed by the module.
+
+~~Statistical random number generator tests. If statistical random number generator tests are required (i.e., depending on the security level), a cryptographic module employing RNGs shall perform the following statistical tests for randomness. A single bit stream of 20,000 consecutive bits of output from each RNG shall be subjected to the following four tests: monobit test, poker test, runs test, and long runs test.~~
+
+~~The monobit test~~
+
+~~Count the number of ones in the 20,000 bit stream. Denote this quantity by X.~~
+
+~~The test is passed if 9,725 < X < 10,275.~~
+
+~~The poker test~~
+
+~~Divide the 20,000 bit stream into 5,000 consecutive 4 bit segments. Count and store the number of occurrences of the 16 possible 4 bit values. Denote f(i) as the number of each 4 bit value i, where 0 ≤ i ≤ 15.~~
+
+~~Evaluate the following:~~
+
+~~X = (16/5000) * (∑ᵢ₌₀¹⁵ [f(i)]²) − 5000~~
+
+~~The test is passed if 2.16 < X < 46.17.~~
+
+~~The runs test~~

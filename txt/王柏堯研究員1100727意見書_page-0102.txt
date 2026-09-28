@@ -1,0 +1,19 @@
+A run is defined as a maximal sequence of consecutive bits of either all ones or all zeros that is part of the 20,000 bit sample stream. The incidences of runs (for both consecutive zeros and consecutive ones) of all lengths (≥ 1) in the sample stream should be counted and stored.
+
+The test is passed if the runs that occur (of lengths 1 through 6) are each within the corresponding interval specified in the table below. This must hold for both the zeros and ones (i.e., all 12 counts must lie in the specified interval). For the purposes of this test, runs of greater than 6 are considered to be of length 6.
+
+Length of Run    Required Interval
+2,343 – 2,657
+1,135 – 1,365
+542 – 708
+251 – 373
+111 – 201
+6+               111 – 201
+
+Table 3. Required intervals for length of runs test
+
+– The long runs test
+
+A long run is defined to be a run of length 26 or more (of either zeros or ones).
+
+On the sample of 20,000 bits, the test is passed if there are no long runs.

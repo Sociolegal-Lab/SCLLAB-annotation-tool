@@ -1,0 +1,18 @@
+之加密技術，如差分隱私（differential privacy）便是藉由數學計算公式增加非決定性雜訊（non-deterministic noise）方式以達到無從識別特定個人資料之目的⁹。但目前衛福部¹⁰或健保署¹¹對去識別化之操作型定義仍是「指對特定欄位重新編碼加密，或重新模糊化，或予以增刪若干欄位，以無從辨識該特定個人」，此仍屬較為原始之去識別化定義，可能無法因應目前再識別化技術之進步。
+
+（二）再識別風險評估與風險檻值應透明化
+
+　　另依目前之科技發展，我們必須承認並沒有任何技術可以百分之百排除再識別化風險；因此，僅能就特定資料庫經過哪些加密技術所可能達成之再識別風險進行評估（再識別風險評估），並以該風險之高低作為判斷是否符合個資法上「無從直接或間接識別特定當事人」之規範。但健保署在資料加密處理上，除前述將資料「經過加密作業」與「非屬個人資料」劃上等號，而未進一步檢視（或公開檢視數據）該加密資料之再識別風險是否已經低到「不具個人化屬性」之程度外，亦未與公民社會適當溝通再識別風險並建立公開透明之再識別風險評估機制，這種將「工具」（加密）等同於「目的」（無從識別當事人）、未適當建立風險溝通管道之方式，對於個人資料保護與隱私保障並不適當¹²。換言之，因為再識別之風險不可能為零，且為資料之可利用性亦不宜將再識別之風險設定為零，故如何透過與公民社會進行風險溝通、建立公開透明之去識別化機制、並設定可被社會接受之再識別風險檻值，便有其重要性，因其代表社會對於資料保護與資料利用間如何取得平衡之態度。
+
+　　舉例而言，歐盟藥品管理局（European Medicines Agency，EMA）在 2018 年所發佈之歐洲藥品管理局人類用醫藥產品臨床資料政策實施外部指引（External guidance on the implementation of the European Medicines Agency policy on the publication of clinical data for medicinal products for human use）即說明，在進行個人資料去識別前必須先確認再識別風險檻值、並齊備再識別之風險評估；而設定可接受之再識別風險檻值，應包括對於現有未公開揭露資料集之評估、再識別風險在何種程度會被認為構成對資料當事人之隱私侵害、及攻擊者重新識別身份之動機與能力評估。而風險檻值一旦確定後，則可使資料集進行去識別化後之再識別風險可以實際概率加以測量，有助於在識別之風險評估；若概率高於風
+
+⁹ Simon L. Garfinkel, De-Identifying Government Datasets, 10 (NIST Special Publication 800-188), available at https://csrc.nist.gov/csrc/media/publications/sp/800-188/archive/2016-08-25/documents/sp800_188_draft.pdf (last visited May 3, 2020).
+¹⁰ 衛生福利部衛生福利資料科學中心資料申請應用規定及申請文件（110 年 6 月 1 日公告），
+https://www.mohw.gov.tw/dl-39218-b5baf813-79b5-4929-b930-281c09b67177.html
+¹¹ 全民健康保險保險人資訊整合應用服務中心作業要點（110 年 4 月 20 日公告），
+https://www.nhi.gov.tw/DL.aspx?sitessn=292&u=LzAwMS9VcGxvYWQvMjkyL3JlbGZpbGUvMC81ODUzL%2b
+WFqOawkeWBpeW6t%2bS%2fnemaquS%2fnemaquS6uuizh%2bioiuaVtOwQiOaHieeUqOacjeWLmeS4reW%2f
+g%2bS9nOalrejmgem7nigxMTAuMDQuMjDlhazlkYopLnBkZg%3d%3d&n=5YWo5rCR5YGl5bq35L%2bd6Zqq5
+L%2bd6Zqq5Lq66LOH6KiK5pW05ZCI5oeJ55So5pyN5YuZ5Lit5b%2bD5L2c5qWt6KaB6bueKDExMC4wNC4y
+MOWFrOWRiikucGRm&ico%20=.pdf
+¹² 吳全峰、許慧瑩，健保資料目的外利用之法律爭議--從去識別化作業工具談起，月旦法學雜誌，272 期，頁 45（2018 年）。

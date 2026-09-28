@@ -1,0 +1,40 @@
+去識別化與資料效用有權衡關係，大量且細緻的資料要做到可接受的
+去識別化程度並同時保有資料效用，幾乎不可能。全民健保為強制保
+險，要讓去識別化成為論證非個人資料的基礎，如何進行與效用的權
+衡，定非能由一單位在不透明的情形下單獨為之。去識別的風險評估
+可因些許假設的差異而得到不同的結果，完成可受公評的評估所需的
+資源與人力，恐遠大於提供選擇退出機制來表達對個人自主權的尊重。
+以上為筆者的意見，也是建構民眾資料自主權框架與醫療資源共享模
+式思考的起點。
+
+附錄：
+
+個資風險分析細節資訊
+資料集中包含了下列欄位：
+
+MemberID, Age, Sex Patient’s sex, DaysInHospital Y2,
+DaysInHospital Y3
+
+每一筆的申報資料則包含了：
+
+MemberID, ProviderID, PCP: Unique identifier for the primary
+care provider
+
+Year: Indicator of claim year (year 1, year 2, or year 3)
+
+Specialty: Specialty of provider
+
+PlaceOfService: Place of service
+
+CPTCode: Current Procedural Terminology these codes provide a
+means to accurately describe medical, surgical, and diagnostic
+services, are used for processing claims and for medical review,
+and are the national coding standard under HIPAA
+
+LOS: Length of stay in hospital
+
+DSFC: Number of days since first claim computed from the first
+claim for that patient for each year
+
+PayDelay: Number of days of delay between date of service and
+date of payment of the claim

@@ -1,0 +1,24 @@
+表一　去識別化技術之風險比較
+
+| | 是否仍然存在被挑出的風險？ | 是否仍然存在關聯風險？ | 是否仍然存在推斷風險？ |
+|---|---|---|---|
+| 代碼化處理技術 | 是 | 是 | 是 |
+| 添加雜訊 | 是 | 不太會 | 不太會 |
+| 替換（substitution） | 是 | 是 | 不太會 |
+| 聚合或 K-匿名 | 否 | 是 | 是 |
+| L-多樣性 | 否 | 是 | 不太會 |
+| 差分隱私 | 不太會 | 不太會 | 不太會 |
+| 散列函數/憑證化 | 是 | 是 | 不太會 |
+
+（四）　不應以單一加密技術適用所有資料庫
+
+　　最後一個問題是，能否以單一標準作為所有資料庫是否符合去識別化之判斷依據，答案則應該是否定的，因研究已指出是否可得再識別當事人並不適合單純以加密作業之種類做出判斷，而可能需要進一步依資料釋出之類型、數量與範圍做出判斷¹⁴，故並沒有一套放諸四海皆準的去識別化標準。詳言之，針對加密之硬體（如健保署所使用 FIPS 標準）、或針對單一變項（如屬連續變項之身分證字號）之加密技術可能比較容易發展出合適之統一標準；但針對資料數量、變項種類均不相同之不同資料庫，則很難有一套統一標準，因為資料數量多寡、變項種類之複雜程度，均可能影響加密技術之效能。
+
+　　故如前文所述，採統一判斷標準所適用之資料庫，通常為封閉型資料庫，亦即該資料庫不會另外與其他資料庫串接。以美國健康保險可攜與責任法（Health Insurance Portability and Accountability Act，HIPAA）為例（此亦為台灣健保資料庫去識別化措施所主要參考之國外立法例），規範完成安全港（safe harbor）條款¹⁵或專家決定（expert determination）之去識別化（de-identified）程序¹⁶後之資料，已非屬受 HIPAA 保護之健康資料¹⁷，似乎是採單一標準。但必須注意者為：
+
+（1）HIPAA 決定需移除與個人、個人之親屬、雇主、家屬相關之 18 項識別因子後，便可視為非可識別資料，是經過再識別風險評估後所決定；但考量 HIPAA 立法之主要規範對象限於「健康計畫、健康照護資料交換中心與健康照護提供者」（health plans, health care clearinghouse, and health care providers，covered entity），其資料庫之數量與變項內容與台灣單一保險人體制下之健保資料庫內
+
+¹⁴ Sophie Stalla-Bourdillon and Alison Knight, Anonymous Data v. Personal Data - A False Debate: An EU Perspective on Anonymization, Pseudonymization And Personal Data, 34 Wis. Int'l L.J. 284, 284 (2016). See also C. Christine Porter, De-Identified Data and Third Party Data Mining: The Risk of Re-Identification of Personal Information, 5 Shidler J. L. Com. & Tech. 3, 3 (2008).
+¹⁵ 45 CFR §164.514(b)(2)(i).
+¹⁶ 45 CFR §164.514(b)(1).
+¹⁷ 45 CFR §164.502(d)(2).

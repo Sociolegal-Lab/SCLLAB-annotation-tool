@@ -1,0 +1,38 @@
+APPENDIX C: CRYPTOGRAPHIC MODULE SECURITY POLICY
+
+A cryptographic module security policy shall be included in the documentation provided by the vendor.
+The following paragraphs outline the required contents of the security policy.
+
+C.1 Definition of Cryptographic Module Security Policy
+
+A cryptographic module security policy shall consist of:
+
+• a specification of the security rules, under which a cryptographic module shall operate, including the security rules derived from the requirements of the standard and the additional security rules imposed by the vendor.
+
+The specification shall be sufficiently detailed to answer the following questions:
+
+• What access does operator X, performing service Y while in role Z, have to security-relevant data item W for every role, service, and security-relevant data item contained in the cryptographic module?
+
+• What physical security mechanisms are implemented to protect a cryptographic module and what actions are required to ensure that the physical security of a module is maintained?
+
+• What security mechanisms are implemented in a cryptographic module to mitigate against attacks for which testable requirements are not defined in the standard?
+
+C.2 Purpose of Cryptographic Module Security Policy
+
+There are two major reasons for developing and following a precise cryptographic module security policy:
+
+• To provide a specification of the cryptographic security that will allow individuals and organizations to determine whether a cryptographic module, as implemented, satisfies a stated security policy.
+
+• To describe to individuals and organizations the capabilities, protection, and access rights provided by the cryptographic module, thereby allowing an assessment of whether the module will adequately serve the individual or organizational security requirements.
+
+C.3 Specification of a Cryptographic Module Security Policy
+
+A cryptographic module security policy shall be expressed in terms of roles, services, and cryptographic keys and CSPs. At a minimum, the following shall be specified:
+
+• an identification and authentication (I&A) policy,
+
+• an access control policy,
+
+• a physical security policy, and
+
+• a security policy for mitigation of other attacks.

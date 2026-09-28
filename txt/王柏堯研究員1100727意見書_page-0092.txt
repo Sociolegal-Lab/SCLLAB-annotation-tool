@@ -1,0 +1,45 @@
+C.3.1 Identification and Authentication Policy
+
+The cryptographic module security policy shall specify an identification and authentication policy, including
+
+• all roles (e.g., user, crypto officer, and maintenance) and associated type of authentication (e.g., identity-based, role-based, or none) and
+
+• the authentication data required of each role or operator (e.g., password or biometric data) and the corresponding strength of the authentication mechanism.
+
+C.3.2 Access Control Policy
+
+The cryptographic module security policy shall specify an access control policy. The specification shall be of sufficient detail to identify the cryptographic keys and CSPs that the operator has access to while performing a service, and the type(s) of access the operator has to the parameters.
+
+The security policy shall specify:
+
+• all roles supported by a cryptographic module,
+
+• all services provided by a cryptographic module,
+
+• all cryptographic keys and CSPs employed by the cryptographic module, including
+
+  □ secret, private, and public cryptographic keys (both plaintext and encrypted),
+
+  □ authentication data such as passwords or PINs, and
+
+  □ other security-relevant information (e.g., audited events and audit data),
+
+• for each role, the services an operator is authorized to perform within that role, and
+
+• for each service within each role, the type(s) of access to the cryptographic keys and CSPs.
+
+C.3.3 Physical Security Policy
+
+The cryptographic module security policy shall specify a physical security policy, including:
+
+• the physical security mechanisms that are implemented in a cryptographic module (e.g., tamper-evident seals, locks, tamper response and zeroization switches, and alarms) and
+
+• the actions required by the operator(s) to ensure that physical security is maintained (e.g., periodic inspection of tamper-evident seals or testing of tamper response and zeroization switches).
+
+C.3.4 Mitigation of Other Attacks Policy
+
+The cryptographic module security policy shall specify a security policy for mitigation of other attacks, including the security mechanisms implemented to mitigate the attacks.
+
+C.4 Security Policy Check List Tables
+
+The following check list tables may be used as guides to ensure the security policy is complete and contains the appropriate details:

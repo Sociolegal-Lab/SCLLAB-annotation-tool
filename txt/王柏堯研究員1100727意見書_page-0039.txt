@@ -1,0 +1,33 @@
+Federal Information
+Processing Standards Publication 140-2
+
+May 25, 2001
+
+Announcing the Standard for
+
+SECURITY REQUIREMENTS FOR CRYPTOGRAPHIC MODULES
+
+Federal Information Processing Standards Publications (FIPS PUBS) are issued by the National Institute of Standards and Technology (NIST) after approval by the Secretary of Commerce pursuant to Section 5131 of the Information Technology Management Reform Act of 1996 (Public Law 104-106) and the Computer Security Act of 1987 (Public Law 100-235).
+
+1. Name of Standard. Security Requirements for Cryptographic Modules (FIPS PUB 140-2).
+
+2. Category of Standard. Computer Security Standard, Cryptography.
+
+3. Explanation. This standard specifies the security requirements that will be satisfied by a cryptographic module utilized within a security system protecting sensitive but unclassified information (hereafter referred to as sensitive information). The standard provides four increasing, qualitative levels of security: Level 1, Level 2, Level 3, and Level 4. These levels are intended to cover the wide range of potential applications and environments in which cryptographic modules may be employed. The security requirements cover areas related to the secure design and implementation of a cryptographic module. These areas include cryptographic module specification, cryptographic module ports and interfaces; roles, services, and authentication; finite state model; physical security; operational environment; cryptographic key management; electromagnetic interference/electromagnetic compatibility (EMI/EMC); self-tests; design assurance; and mitigation of other attacks. This standard supersedes FIPS 140-1, Security Requirements for Cryptographic Modules, in its entirety.
+
+The Cryptographic Module Validation Program (CMVP) validates cryptographic modules to Federal Information Processing Standard (FIPS) 140-2 and other cryptography based standards. The CMVP is a joint effort between NIST and the Communications Security Establishment (CSE) of the Government of Canada. Products validated as conforming to FIPS 140-2 are accepted by the Federal agencies of both countries for the protection of sensitive information (United States) or Designated Information (Canada). The goal of the CMVP is to promote the use of validated cryptographic modules and provide Federal agencies with a security metric to use in procuring equipment containing validated cryptographic modules.
+
+In the CMVP, vendors of cryptographic modules use independent, accredited testing laboratories to have their modules tested. National Voluntary Laboratory Accreditation Program (NVLAP) accredited laboratories perform cryptographic module compliance/conformance testing.
+
+4. Approving Authority. Secretary of Commerce.
+
+5. Maintenance Agency. Department of Commerce, National Institute of Standards and Technology, Information Technology Laboratory (ITL).
+
+6. Cross Index.
+
+a. FIPS PUB 46-3, Data Encryption Standard.
+b. FIPS PUB 74, Guidelines for Implementing and Using the NBS Data Encryption Standard.
+c. FIPS PUB 81, DES Modes of Operation.
+d. FIPS PUB 113, Computer Data Authentication.
+
+iii

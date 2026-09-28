@@ -1,0 +1,39 @@
+4.5.3 Multiple-Chip Embedded Cryptographic Modules
+
+In addition to the general security requirements specified in Section 4.5.1, the following requirements are specific to multiple-chip embedded cryptographic modules.
+
+SECURITY LEVEL 1
+
+The following requirement shall apply to multiple-chip embedded cryptographic modules for Security Level 1.
+
+• If the cryptographic module is contained within an enclosure or removable cover, a production-grade enclosure or removable cover shall be used.
+
+SECURITY LEVEL 2
+
+In addition to the requirement for Security Level 1, the following requirements shall apply to multiple-chip embedded cryptographic modules for Security Level 2.
+
+Either
+
+• the cryptographic module components shall be covered with a tamper-evident coating or potting material (e.g., etch-resistant coating or bleeding paint) or contained in a tamper-evident enclosure to deter direct observation, probing, or manipulation of module components and to provide evidence of attempts to tamper with or remove module components, and
+
+• the tamper-evident coating or tamper-evident enclosure shall be opaque within the visible spectrum,
+
+or
+
+• the cryptographic module shall be entirely contained within a metal or hard plastic production-grade enclosure that may include doors or removable covers,
+
+• the enclosure shall be opaque within the visible spectrum, and
+
+• if the enclosure includes any doors or removable covers, then the doors or covers shall be locked with pick-resistant mechanical locks employing physical or logical keys or shall be protected with tamper-evident seals (e.g., evidence tape or holographic seals).
+
+SECURITY LEVEL 3
+
+In addition to the requirements for Security Levels 1 and 2, the following requirements shall apply to multiple-chip embedded cryptographic modules for Security Level 3.
+
+Either
+
+• the multiple-chip embodiment of the circuitry within the cryptographic module shall be covered with a hard coating or potting material (e.g., a hard epoxy material) that is opaque within the visible spectrum
+
+or
+
+• the applicable Security Level 3 requirements for multiple-chip standalone cryptographic modules shall apply. (Section 4.5.4)

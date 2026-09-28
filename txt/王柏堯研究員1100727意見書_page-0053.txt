@@ -1,0 +1,28 @@
+CAPP    Controlled Access Protection Profile
+CBC    Cipher Block Chaining
+CC    Common Criteria
+CMVP    Cryptographic Module Validation Program
+CSE    Communications Security Establishment of the Government of Canada
+CSP    Critical Security Parameter
+DES    Data Encryption Standard
+DOD    Department of Defense
+DPA    Differential Power Analysis
+DTR    Derived Test Requirements
+EAL    Common Criteria Evaluation Assurance Level
+EDC    Error Detection Code
+EEPROM    Electronically-Erasable Programmable Read-Only Memory
+EFP    Environmental Failure Protection
+EFT    Environmental Failure Testing
+EMC    Electromagnetic Compatibility
+EMI    Electromagnetic Interference
+EPROM    Erasable Programmable Read-Only Memory
+FCC    Federal Communications Commission
+FIPS    Federal Information Processing Standard
+FIPS PUB    FIPS Publication
+HDL    Hardware Description Language
+HMAC    Hash-Based Message Authentication Code
+IC    Integrated Circuit
+IG    Implementation Guidance
+ISO    International Organization for Standardization
+ITSEC    Information Technology Security Evaluation Criteria
+IV    Initialization Vector

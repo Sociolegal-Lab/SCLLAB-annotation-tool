@@ -1,0 +1,33 @@
+• Specification of the key establishment methods employed by a cryptographic module. (Security Levels 1, 2, 3, and 4)
+
+• Specification of the key entry and output methods employed by a cryptographic module. (Security Levels 1, 2, 3, and 4)
+
+• If split knowledge procedures are used, proof that if knowledge of n key components is required to reconstruct the original key, then knowledge that any n-1 key components provides no information about the original key other than length, and specification of the split-knowledge procedures employed by a cryptographic module. (Security Levels 3 and 4)
+
+• Specification of the key storage methods employed by a cryptographic module. (Security Levels 1, 2, 3, and 4)
+
+• Specification of the key zeroization methods employed by a cryptographic module. (Security Levels 1, 2, 3, and 4)
+
+ELECTROMAGNETIC INTERFERENCE/ELECTROMAGNETIC COMPATIBILITY
+
+• Proof of conformance to EMI/EMC requirements. (Security Levels 1, 2, 3, and 4)
+
+SELF-TESTS
+
+• Specification of the self-tests performed by a cryptographic module including power-up and conditional tests. (Security Levels 1, 2, 3, and 4)
+
+• Specification of the error states that a cryptographic module can enter when a self-test fails, and the conditions and actions necessary to exit the error states and resume normal operation of a module. (Security Levels 1, 2, 3, and 4)
+
+• Specification of all security functions critical to the secure operation of a cryptographic module and identification of the applicable power-up tests and conditional tests performed by the module. (Security Levels 1, 2, 3, and 4)
+
+• If a cryptographic module implements a bypass capability, specification of the mechanism or logic governing the switching procedure. (Security Levels 1, 2, 3, and 4)
+
+DESIGN ASSURANCE
+
+• Specification of procedures for secure installation, generation, and start-up of a cryptographic module. (Security Levels 1, 2, 3, and 4)
+
+• Specification of the procedures for maintaining security while distributing and delivering versions of a cryptographic module to authorized operators. (Security Level 2, 3, and 4)
+
+• Specification of the correspondence between the design of the hardware, software, and firmware components of a cryptographic module and the cryptographic module security policy (i.e., the rules of operation). (Security Levels 1, 2, 3, and 4)
+
+• If a cryptographic module contains software or firmware components, specification of the source code for the software and firmware components, annotated with comments that clearly depict the correspondence of the components to the design of the module. (Security Levels 1, 2, 3, and 4)

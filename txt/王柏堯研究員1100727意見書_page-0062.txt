@@ -1,0 +1,53 @@
+verification of personal characteristics (e.g., biometrics). Authentication data within a cryptographic
+module shall be protected against unauthorized disclosure, modification, and substitution.
+
+The initialization of authentication mechanisms may warrant special treatment. If a cryptographic module
+does not contain the authentication data required to authenticate the operator for the first time the module is
+accessed, then other authorized methods (e.g., procedural controls or use of factory-set or default
+authentication data) shall be used to control access to the module and initialize the authentication
+mechanisms.
+
+The strength of the authentication mechanism shall conform to the following specifications:
+
+• For each attempt to use the authentication mechanism, the probability shall be less than one in
+  1,000,000 that a random attempt will succeed or a false acceptance will occur (e.g., guessing a
+  password or PIN, false acceptance error rate of a biometric device, or some combination of
+  authentication methods).
+
+• For multiple attempts to use the authentication mechanism during a one-minute period, the
+  probability shall be less than one in 100,000 that a random attempt will succeed or a false
+  acceptance will occur.
+
+• Feedback of authentication data to an operator shall be obscured during authentication (e.g., no
+  visible display of characters when entering a password).
+
+• Feedback provided to an operator during an attempted authentication shall not weaken the strength
+  of the authentication mechanism.
+
+Documentation shall specify:
+
+• the authentication mechanisms supported by a cryptographic module,
+
+• the types of authentication data required by the module to implement the supported authentication
+  mechanisms,
+
+• the authorized methods used to control access to the module for the first time and initialize the
+  authentication mechanisms, and
+
+• the strength of the authentication mechanisms supported by the module.
+
+SECURITY LEVEL 1
+
+For Security Level 1, a cryptographic module is not required to employ authentication mechanisms to
+control access to the module. If authentication mechanisms are not supported by a cryptographic module,
+the module shall require that one or more roles either be implicitly or explicitly selected by the operator.
+
+SECURITY LEVEL 2
+
+For Security Level 2, a cryptographic module shall employ role-based authentication to control access to
+the module.
+
+SECURITY LEVELS 3 AND 4
+
+For Security Levels 3 and 4, a cryptographic module shall employ identity-based authentication
+mechanisms to control access to the module.

@@ -1,0 +1,38 @@
+目標：確保適當及有效使用密碼學，以保護資訊之機
+密性、鑑別性及/或完整性。
+A. 10.1.1　　使用密碼式控制措施之政策
+　　　　　　控制措施
+　　　　　　應發展及實作政策，關於資訊保護之密碼式控制措施
+A. 10.1.2　　金鑰管理
+　　　　　　控制措施
+　　　　　　應發展及實作政策，關於貫穿其整個生命週期之密碼
+　　　　金鑰的使用、保護及生命期。
+
+其中雖指出對密碼學之控制目標，但是其控制措施卻不明確，筆者也
+無法從不明確的措施中，推論出所欲之目標。
+
+另一方面，美國國家標準局為密碼模組所訂立之安全要求 FIPS 140-2
+中⁶，概論明確指出（詳附件二第一頁第一節第三段）：
+
+“While the security requirements specified in this standard are intended to
+maintain the security provided by a cryptographic module, conformance to
+this standard is not sufficient to ensure that a particular module is secure.”
+
+附錄 A 中更明列了 37 份文件要求。密碼模組開發要求中（4.10.3
+節），安全層級一有三點要求（附件二第 37 頁，底線為筆者所加）：
+
+• Documentation shall specify the correspondence between the design of
+  the hardware, software, and firmware components of a cryptographic
+  module and the cryptographic module security policy (see Section 4.1).
+• If a cryptographic module contains software or firmware components,
+  documentation shall specify the source code for the software and
+  firmware components, annotated with comments that clearly depict the
+  correspondence of the components to the design of the module.
+• If a cryptographic module contains hardware components,
+  documentation shall specify the schematics and/or Hardware
+  Description Language (HDL) listings for the hardware components.
+
+⁶
+Information Technology Laboratory, National Institute of Standards and Technology. (2001, May
+　　25). Security Requirements for Cryptographic Modules. FIPS PUB 140-2. United States
+　　of America: Federal Information Processing Standards Publication.

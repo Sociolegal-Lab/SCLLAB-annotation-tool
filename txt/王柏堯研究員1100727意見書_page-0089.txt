@@ -1,0 +1,31 @@
+APPENDIX B: RECOMMENDED SOFTWARE DEVELOPMENT PRACTICES
+
+This Appendix is provided for informational purposes only and does not contain security requirements applicable to cryptographic modules within the scope of the standard.
+
+Life-cycle software engineering recommendations (dealing with the specification, construction, verification, testing, maintenance, and documentation of software) should be followed. Software engineering practices may include documented unit testing, code reviews, explicit high-level and low-level design documents, explicit requirements and functional specifications, structure charts and data flow diagrams, function-point analysis, defect and resolution tracking, configuration management, and a documented software development process.
+
+For all software development, both large and small, the following programming techniques are consistent with current practices and should be used to facilitate analysis of software components of a cryptographic module and to reduce chances of programming errors.
+
+MODULAR DESIGN
+
+• A modular design is recommended, especially for moderate to large-scale software development efforts. Each software module should have well-defined and readily understood logical interfaces.
+
+• Software components should be constructed using the principles of data abstraction. If available, an object-oriented, high-level language that supports the construction of abstract data types should be used.
+
+• The software should be hierarchically structured as a series of layers.
+
+SOFTWARE MODULE/PROCEDURE INTERFACES
+
+• Entries to a software module or procedure should be through external calls on explicitly defined interfaces.
+
+• Each procedure should have only one entry point and at most two exit points, one for normal exits and one for error exits.
+
+• Data should be communicated between software modules and between procedures through the use of argument lists and/or explicit return values. Global variables should not be used among procedures except where necessary for the implementation of abstract data types. Input values should be checked for range errors using assertion statements (if provided by the programming language in use).
+
+INTERNAL CONSTRUCTION
+
+• Each procedure should perform only a single, well-defined function.
+
+• Control flow within a single thread of execution should be defined using only sequencing, structured programming constructs for conditionals (e.g., if-then-else or case), and structured constructs for loops (e.g., while-do or repeat-until).
+
+• If concurrent execution is employed (e.g., via multiple threads, tasks, or processes), the software components should enforce limits on the maximum allowable degree of concurrency and should use structured synchronization constructs to control access to shared data.

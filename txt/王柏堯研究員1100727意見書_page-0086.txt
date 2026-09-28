@@ -1,0 +1,31 @@
+• Specification of the services, operations, or functions provided by a cryptographic module, both Approved and non-Approved. For each service, specification of the service inputs, corresponding service outputs, and the authorized role(s) in which the service can be performed. (Security Levels 1, 2, 3, and 4)
+
+▪ Specification of any services provided by a cryptographic module for which the operator is not required to assume an authorized role, and how these services do not modify, disclose, or substitute cryptographic keys and CSPs, or otherwise affect the security of the module.
+
+• Specification of the authentication mechanisms supported by a cryptographic module, the types of authentication data required to implement supported authentication mechanisms, the authorized methods used to control access to the module for the first time and initialize the authentication mechanism, and the corresponding strength of the mechanisms supported by the module. (Security Levels 2, 3, and 4)
+
+FINITE STATE MODEL
+
+• Representation of a finite state model (or equivalent) using the state transition diagram and/or state transition table that specifies all operational and error states, corresponding transitions from one state to another, input events (including data inputs and control outputs) that cause transitions from one state to another, and output events (including internal module conditions, data outputs, and status outputs) resulting from transitions from one state to another. (Security Levels 1, 2, 3, and 4)
+
+PHYSICAL SECURITY
+
+• Specification of the physical embodiment and security level for which the physical security mechanisms of a cryptographic module are implemented. Specification of the physical security mechanisms that are employed by a module. (Security Levels 1, 2, 3, and 4)
+
+• If a cryptographic module includes a maintenance role that requires physical access to the contents of the module or if the module is designed to permit physical access, specification of the maintenance access interface and how plaintext secret and private keys and CSPs are to be zeroized when the maintenance access interface is accessed. (Security Levels 1, 2, 3, and 4)
+
+• Specification of the normal operating ranges of a cryptographic module. Specification of the environmental failure protection features employed by a cryptographic module or specification of the environmental failure tests performed. (Security Level 4)
+
+OPERATIONAL ENVIRONMENT
+
+• Specification of the operational environment for the cryptographic module. (Security Levels 1, 2, 3, and 4)
+
+• Identification of the operating system employed by a cryptographic module, the applicable Protection Profile, and the CC assurance level. (Security Levels 2, 3, and 4)
+
+CRYPTOGRAPHIC KEY MANAGEMENT
+
+• Specification of all cryptographic keys, cryptographic key components, and CSPs employed by a cryptographic module.
+
+• Specification of each RNG (Approved and non-Approved) employed by a cryptographic module. (Security Levels 1, 2, 3, and 4)
+
+• Specification of each of the key generation methods (Approved and non-Approved) employed by a cryptographic module. (Security Levels 1, 2, 3, and 4)

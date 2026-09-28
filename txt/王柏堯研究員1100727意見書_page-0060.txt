@@ -1,0 +1,35 @@
+4.3.1 Roles
+
+A cryptographic module shall support the following authorized roles for operators:
+
+User Role. The role assumed to perform general security services, including cryptographic operations and other Approved security functions.
+
+Crypto Officer Role: The role assumed to perform cryptographic initialization or management functions (e.g., module initialization, input/output of cryptographic keys and CSPs, and audit functions).
+
+If the cryptographic module allows operators to perform maintenance services, then the module shall support the following authorized role:
+
+Maintenance Role: The role assumed to perform physical maintenance and/or logical maintenance services (e.g., hardware/software diagnostics). All plaintext secret and private keys and unprotected CSPs shall be zeroized when entering or exiting the maintenance role.
+
+A cryptographic module may support other roles or sub-roles in addition to the roles specified above.
+
+Documentation shall specify all authorized roles supported by the cryptographic module.
+
+4.3.2 Services
+
+Services shall refer to all of the services, operations, or functions that can be performed by a cryptographic module. Service inputs shall consist of all data or control inputs to the cryptographic module that initiate or obtain specific services, operations, or functions. Service outputs shall consist of all data and status outputs that result from services, operations, or functions initiated or obtained by service inputs. Each service input shall result in a service output.
+
+A cryptographic module shall provide the following services to operators:
+
+Show Status. Output the current status of the cryptographic module.
+
+Perform Self-Tests. Initiate and run the self-tests as specified in Section 4.9.
+
+Perform Approved Security Function. Perform at least one Approved security function used in an Approved mode of operation, as specified in Section 4.1.
+
+A cryptographic module may provide other services, operations, or functions, both Approved and non-Approved, in addition to the services specified above. Specific services may be provided in more than one role (e.g., key entry services may be provided in the user role and the crypto officer role).
+
+If a cryptographic module implements a bypass capability, where services are provided without cryptographic processing (e.g., transferring plaintext through the module without encryption), then
+
+• two independent internal actions shall be required to activate the capability to prevent the inadvertent bypass of plaintext data due to a single error (e.g., two different software or hardware flags are set, one of which may be user-initiated), and
+
+• the module shall show status to indicate whether

@@ -1,0 +1,35 @@
+APPENDIX D: SELECTED BIBLIOGRAPHY
+
+American Bankers Association, Digital Signatures using Reversible Public Key Cryptography for the Financial Services Industry (rDSA), ANSI X9.31-1998, Washington, D.C., 1998.
+
+American Bankers Association, Triple Data Encryption Algorithm Modes of Operation, ANSI X9.52-1998, Washington, D.C., 1998.
+
+American Bankers Association, Public Key Cryptography for the Financial Services Industry: The Elliptic Curve Digital Signature Algorithm, American National Standard X9.62-1998, Washington, D.C., 1998.
+
+Common Criteria Implementation Board (CCIB), International Standard (IS) 15408, Common Criteria for Information Technology Security Evaluation, Version 2, May 1998, ISO/IEC JTC 1 and Common Criteria Implementation Board.
+
+Computer Security Act of 1987, 40 U.S. Code 759, (Public Law 100-235), January 8, 1988.
+
+Department of Defense, Department of Defense Trusted Computer System Evaluation Criteria, DOD 5200.28-STD, December 1985.
+
+Information Technology Management Reform Act of 1996, U.S. Code, (Public Law 104-106), 10 February 1996.
+
+Information Technology Security Evaluation Criteria (ITSEC), Harmonized Criteria of France – Germany - the Netherlands - the United Kingdom, Version 1.1, January 1991.
+
+Keller, Sharon and Smid, Miles, Modes of Operation Validation System (MOVS): Requirements and Procedures, Special Publication 800-17, Gaithersburg, MD, National Institute of Standards and Technology, February 1998.
+
+Keller, Sharon, Modes of Operation Validation System for the Triple Data Encryption Algorithm (TMOVS): Requirements and Procedures, Special Publication 800-20, Gaithersburg, MD, National Institute of Standards and Technology, October 1999.
+
+Lee, Annabelle, Guideline for Implementing Cryptography in the Federal Government, Special Publication 800-21, Gaithersburg, MD, National Institute of Standards and Technology, November, 1999.
+
+National Institute of Standards and Technology, FIPS 140-2 Annex A: Approved Security Functions, available at URL: http://www.nist.gov/cmvp.
+
+National Institute of Standards and Technology, FIPS 140-2 Annex B: Approved Protection Profiles, available at URL: http://www.nist.gov/cmvp.
+
+National Institute of Standards and Technology, FIPS 140-2 Annex C: Approved Random Number Generators, available at URL: http://www.nist.gov/cmvp.
+
+National Institute of Standards and Technology, FIPS 140-2 Annex D: Approved Key Establishment Techniques, available at URL: http://www.nist.gov/cmvp.
+
+National Institute of Standards and Technology, Computer Data Authentication, Federal Information Processing Standards Publication 113, 30 May 1985.
+
+National Institute of Standards and Technology, Data Encryption Standard, Federal Information Processing Standards Publication 46-3, October 25, 1999.

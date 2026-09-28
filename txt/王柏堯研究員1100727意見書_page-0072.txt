@@ -1,0 +1,33 @@
+4.6.1 Operating System Requirements
+
+SECURITY LEVEL 1
+
+The following requirements shall apply to operating systems for Security Level 1.
+
+• For Security Level 1 only, the operating system shall be restricted to a single operator mode of operation (i.e., concurrent operators are explicitly excluded).
+
+• For Security Level 1 only, the cryptographic module shall prevent access by other processes to plaintext private and secret keys, CSPs, and intermediate key generation values during the time the cryptographic module is executing/operational. Processes that are spawned by the cryptographic module are owned by the module and are not owned by external processes/operators. Non-cryptographic processes shall not interrupt a cryptographic module during execution.
+
+• All cryptographic software and firmware shall be installed in a form that protects the software and firmware source and executable code from unauthorized disclosure and modification.
+
+• A cryptographic mechanism using an Approved integrity technique (e.g., an Approved message authentication code or digital signature algorithm) shall be applied to all cryptographic software and firmware components within the cryptographic module. This cryptographic mechanism requirement may be incorporated as part of the Software/Firmware Integrity Test (Section 4.9.1) if an Approved authentication technique is employed for that test.
+
+SECURITY LEVEL 2
+
+In addition to the applicable requirements for Security Level 1, the following requirements shall also apply for Security Level 2.
+
+• All cryptographic software and firmware, cryptographic keys and CSPs, and control and status information shall be under the control of
+
+  □ an operating system that meets the functional requirements specified in the Protection Profiles listed in Annex B and is evaluated at the CC evaluation assurance level EAL2, or
+
+  □ an equivalent evaluated trusted operating system.
+
+• To protect plaintext data, cryptographic software and firmware, cryptographic keys and CSPs, and authentication data, the discretionary access control mechanisms of the operating system shall be configured to:
+
+  □ Specify the set of roles that can execute stored cryptographic software and firmware.
+
+  □ Specify the set of roles that can modify (i.e., write, replace, and delete) the following cryptographic module software or firmware components stored within the cryptographic boundary: cryptographic programs, cryptographic data (e.g., cryptographic keys and audit data), CSPs, and plaintext data.
+
+  □ Specify the set of roles that can read the following cryptographic software components stored within the cryptographic boundary: cryptographic data (e.g., cryptographic keys and audit data), CSPs, and plaintext data.
+
+  □ Specify the set of roles that can enter cryptographic keys and CSPs.

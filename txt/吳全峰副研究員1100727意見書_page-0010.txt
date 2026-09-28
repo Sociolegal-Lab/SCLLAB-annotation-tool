@@ -1,0 +1,16 @@
+會公布公共利益審議指引（Privacy Public Interest Determination Guide），供公眾與其他具類似情境之公務機關或非公務機關申請時參考。而專員判斷具正當性之公共利益，又可分為大於 12 個月之公共利益決定（public interest determination，PID）或少於 12 個月之暫時性公共利益決定（temporary public interest determination），通過個案審議之公務機關或非公務機關可主張公共利益為正當化事由採取相關行為或作法，OAIC 亦將會把該個別申請案件內容與期限公告於公共利益註冊平台（public interest register）²³；且該公共利益審議亦受國會監督，國會得對公共利益決議之全部或一部提出 disallow 或 veto²⁴。
+
+　　英國則採「個案審議」加上「法律明文列舉」之方式。英國於 2018 年修訂之個人資料保護法主要依循歐盟 GDPR 之規定，而 GDPR 對公共利益之規定在適用時尚區分為一般公共利益（general public interest）與重大公共利益（substantial public interest）；雖然 GDPR 對於兩者之區別並未加以定義，但英國於 2018 年個人資料保護法 Schedule 1 Part 2²⁵ 列舉 23 項重大公共利益²⁶類別（見下表三）用以補充說明 GDPR Article 9(2)(g)之規定²⁷。資料管理者（data controller）欲主張重大公共利益作為敏感性特種個資蒐集、處理與利用之正當化事由²⁸，其所主張之特定目的須符合 23 項重大公共利益類別之一，並須舉證其處理敏感性特種個人資料之必要性，在某些情況下還必須說明未能取得資料當事人同意之原因。另，個人資料保護法 Schedule 2 Part 4²⁹要求資料管理者，主張公共利益作為處理敏感性個人資料正當化事由，必須具備適當政策文件，記錄資料管理者處理敏感性特種個資之重大公共利益類別、遵循個人資料保護原則的程序、保留和刪除個人資料的政策，及保留特定個資的期限等，作為有責之證明文件³⁰。惟是否能夠通過重大公共利益的測試，還是要以個案判斷³¹。
+
+²³ OAIC, Public Interest Determinations Register, https://www.oaic.gov.au/privacy/privacy-registers/public-interest-determinations-register/?start=0&year=2019
+²⁴ OAIC, Privacy Public Interest Determination Guide, https://www.oaic.gov.au/privacy/guidance-and-advice/privacy-public-interest-determination-guide/
+²⁵ UK Personal Data Protection Act 2018, Paragraph 6 to 28 of Schedule 1.
+²⁶ ICO Guidance, Lawful Basis for Processing Special Category Personal Data, 15, 2019,
+https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/special-category-data/
+²⁷ ICO, Lawful Basis for Processing Special Category Personal Data, 35-35, 2019,
+https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/special-category-data/
+²⁸ GDPR Article 9(2)(g), processing is necessary for reasons of substantial public interest, on the basis of Union or Member State law which shall be proportionate to the aim pursued, respect the essence of the right to data protection and provide for suitable and specific measures to safeguard the fundamental rights and the interests of the data subject.
+²⁹ ICO, Personal Data Protection Act, Schedule 2 Part 4.
+³⁰ ICO, Guidance, Lawful Basis for Processing Special Category Personal Data, 36-37, 2019,
+https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/special-category-data/
+³¹ ICO, Guide to General Data Protection Regulation, 84, 2021, https://ico.org.uk/media/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr-1-1.pdf

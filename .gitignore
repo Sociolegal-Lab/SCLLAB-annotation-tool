@@ -1,0 +1,9 @@
+# 各自電腦上由啟動檔建立的 Python 環境
+.venv/
+__pycache__/
+*.py[cod]
+
+# 系統雜檔
+.DS_Store
+Thumbs.db
+desktop.ini

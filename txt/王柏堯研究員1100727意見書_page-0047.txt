@@ -1,0 +1,39 @@
+Security Level 3 allows the software and firmware components of a cryptographic module to be executed
+on a general purpose computing system using an operating system that
+
+• meets the functional requirements specified in the PPs listed in Annex B with the additional
+  functional requirement of a Trusted Path (FTP_TRP.1) and
+
+• is evaluated at the CC evaluation assurance level EAL3 (or higher) with the additional assurance
+  requirement of an Informal Target of Evaluation (TOE) Security Policy Model (ADV_SPM.1).
+
+An equivalent evaluated trusted operating system may be used. The implementation of a trusted path
+protects plaintext CSPs and the software and firmware components of the cryptographic module from other
+untrusted software or firmware that may be executing on the system.
+
+1.4　　Security Level 4
+
+Security Level 4 provides the highest level of security defined in this standard. At this security level, the
+physical security mechanisms provide a complete envelope of protection around the cryptographic module
+with the intent of detecting and responding to all unauthorized attempts at physical access. Penetration of
+the cryptographic module enclosure from any direction has a very high probability of being detected,
+resulting in the immediate zeroization of all plaintext CSPs. Security Level 4 cryptographic modules are
+useful for operation in physically unprotected environments.
+
+Security Level 4 also protects a cryptographic module against a security compromise due to environmental
+conditions or fluctuations outside of the module's normal operating ranges for voltage and temperature.
+Intentional excursions beyond the normal operating ranges may be used by an attacker to thwart a
+cryptographic module's defenses. A cryptographic module is required to either include special
+environmental protection features designed to detect fluctuations and zeroize CSPs, or to undergo rigorous
+environmental failure testing to provide a reasonable assurance that the module will not be affected by
+fluctuations outside of the normal operating range in a manner that can compromise the security of the
+module.
+
+Security Level 4 allows the software and firmware components of a cryptographic module to be executed
+on a general purpose computing system using an operating system that
+
+• meets the functional requirements specified for Security Level 3 and
+
+• is evaluated at the CC evaluation assurance level EAL4 (or higher).
+
+An equivalent evaluated trusted operating system may be used.

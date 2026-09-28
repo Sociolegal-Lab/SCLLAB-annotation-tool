@@ -1,0 +1,35 @@
+• If a cryptographic module contains hardware components, specification of the schematics and/or Hardware Description Language (HDL) listings for the hardware components. (Security Levels 1, 2, 3, and 4)
+
+• Functional specification that informally describes a cryptographic module, the external ports and interfaces of the module, and the purpose of the interfaces. (Security Levels 2, 3, and 4)
+
+• Specification of a formal model that describes the rules and characteristics of the cryptographic module security policy, using a formal specification language that is a rigorous notation based on established mathematics, such as first order logic or set theory. (Security Level 4)
+
+• Specification of a rationale that demonstrates the consistency and completeness of the formal model with respect to the cryptographic module security policy. (Security Level 4)
+
+• Specification of an informal proof of the correspondence between the formal model and the functional specification. (Security Level 4)
+
+• For each hardware, software, and firmware component, source code annotation with comments that specify (1) the preconditions required upon entry into the module component, function or procedure in order to execute correctly and (2) the postconditions expected to be true when execution of the module component, function, or procedure is complete. (Security Level 4)
+
+• Specification of an informal proof of the correspondence between the design of the cryptographic module (as reflected by the precondition and postcondition annotations) and the functional specification. (Security Level 4)
+
+• For crypto officer guidance, specification of:
+
+  ❑ the administrative functions, security events, security parameters (and parameter values, as appropriate), physical ports, and logical interfaces of the cryptographic module available to the crypto officer (Security Levels 1, 2, 3, and 4),
+
+  ❑ procedures on how to administer the cryptographic module in a secure manner (Security Levels 1, 2, 3, and 4), and
+
+  ❑ assumptions regarding user behavior that is relevant to the secure operation of the cryptographic module. (Security Levels 1, 2, 3, and 4)
+
+• For user guidance, specification of
+
+  ❑ the Approved security functions, physical ports, and logical interfaces available to the users of the cryptographic module (Security Levels 1, 2, 3, and 4), and
+
+  ❑ all user responsibilities necessary for the secure operation of the module. (Security Levels 1, 2, 3, and 4)
+
+MITIGATION OF OTHER ATTACKS
+
+• If a cryptographic module is designed to mitigate one or more specific attacks, specification in the module’s security policy of the security mechanisms employed by the cryptographic module to mitigate the attack(s). (Security Levels 1, 2, 3, and 4)
+
+SECURITY POLICY
+
+• See Appendix C. (Security Levels 1, 2, 3, and 4)
