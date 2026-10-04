@@ -2,9 +2,9 @@
 
 |  | 美國 | 台灣 |
 | --- | --- | --- |
-| age | 年，但 89 歲以上者僅能以一個類別出現（>= 90 yrs old）<br>（45 CFR § 164.514(b)(2)(i)(C)） | 僅為年，對高齡者無特別規定 |
-| Zip code | 若居民人數超過 20,000 人，則提供 3 碼郵遞區號，若少於 20,000 人，則以 000 方式提供郵遞區號<br>（45 CFR § 164.514(b)(2)(i)(B)(2)）） | 未考慮人數，從大於 200,000 人（新竹市東區）至 656 人（金門縣烏坵鄉）之分佈均有 |
-| 概括條款 | Any other unique identifying number, characteristic, or code, except as permitted by paragraph (c) of this section<br>（45 CFR § 164.514(b)(2)(i)(R)） | 無 |
+| age | 年，但 89 歲以上者僅能以一個類別出現（>= 90 yrs old）（45 CFR § 164.514(b)(2)(i)(C)） | 僅為年，對高齡者無特別規定 |
+| Zip code | 若居民人數超過 20,000 人，則提供 3 碼郵遞區號，若少於 20,000 人，則以 000 方式提供郵遞區號（45 CFR § 164.514(b)(2)(i)(B)(2)）） | 未考慮人數，從大於 200,000 人（新竹市東區）至 656 人（金門縣烏坵鄉）之分佈均有 |
+| 概括條款 | Any other unique identifying number, characteristic, or code, except as permitted by paragraph (c) of this section（45 CFR § 164.514(b)(2)(i)(R)） | 無 |
 | 處理方式 | 需先去除 18 identifiers，故無法歸人（因為 name 等 identifiers 已刪除，而依 45 CFR § 164.514(b)(2)(ii)，covered entity 不能回溯刪除 identifiers 之資料集），亦無可串聯性；若要先歸人後再刪除 identifiers，則需當事人同意 | 身分證字號編碼後，同一人仍屬同一組號碼，故可歸人並進行串聯（不需當事人同意） |
 
 （五）金鑰進行加密之資料集仍為可識別資料
