@@ -31,3 +31,5 @@ DESIGN ASSURANCE
 • Specification of the correspondence between the design of the hardware, software, and firmware components of a cryptographic module and the cryptographic module security policy (i.e., the rules of operation). (Security Levels 1, 2, 3, and 4)
 
 • If a cryptographic module contains software or firmware components, specification of the source code for the software and firmware components, annotated with comments that clearly depict the correspondence of the components to the design of the module. (Security Levels 1, 2, 3, and 4)
+
+43

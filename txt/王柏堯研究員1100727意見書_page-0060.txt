@@ -33,3 +33,5 @@ If a cryptographic module implements a bypass capability, where services are pro
 • two independent internal actions shall be required to activate the capability to prevent the inadvertent bypass of plaintext data due to a single error (e.g., two different software or hardware flags are set, one of which may be user-initiated), and
 
 • the module shall show status to indicate whether
+
+16

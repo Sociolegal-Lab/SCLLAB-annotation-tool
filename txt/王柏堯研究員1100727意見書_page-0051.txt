@@ -31,3 +31,5 @@ Security policy: see Cryptographic module security policy.
 Seed key: a secret value used to initialize a cryptographic function or operation.
 
 Simple power analysis (SPA): a direct (primarily visual) analysis of patterns of instruction execution (or execution of individual instructions), obtained through monitoring the variations in electrical power consumption of a cryptographic module, for the purpose of revealing the features and implementations of cryptographic algorithms and subsequently the values of cryptographic keys.
+
+7

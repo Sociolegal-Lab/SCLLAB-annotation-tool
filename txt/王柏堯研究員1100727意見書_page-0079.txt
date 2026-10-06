@@ -29,3 +29,5 @@ Manual key entry test. If cryptographic keys or key components are manually ente
 2. If an EDC is used, the EDC shall be at least 16 bits in length.
 
 3. If the EDC cannot be verified, or the duplicate entries do not match, the test shall fail.
+
+35

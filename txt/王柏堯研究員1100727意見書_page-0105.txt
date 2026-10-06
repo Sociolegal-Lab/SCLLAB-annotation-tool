@@ -22,3 +22,5 @@ Questions regarding this change notice may be directed to Annabelle Lee
 4.6　Operational Environment
 
 A limited operational environment refers to a static non-modifiable virtual operational environment (e.g., JAVA virtual machine o̶r̶ o̲n̲ a non-programmable PC card) with no underlying general purpose operating system upon which the operational environment uniquely resides.
+
+61

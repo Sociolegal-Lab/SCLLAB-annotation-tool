@@ -43,3 +43,5 @@ The cryptographic module security policy shall specify a security policy for mit
 C.4 Security Policy Check List Tables
 
 The following check list tables may be used as guides to ensure the security policy is complete and contains the appropriate details:
+
+48

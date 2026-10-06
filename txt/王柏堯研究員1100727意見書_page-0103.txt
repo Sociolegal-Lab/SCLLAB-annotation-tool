@@ -15,3 +15,5 @@
 | Mitigation of Other Attacks | Specification of mitigation of attacks for which no testable requirements are currently available | | | |
 
 Table 1: Summary of security requirements
+
+59

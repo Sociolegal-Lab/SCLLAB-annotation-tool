@@ -20,3 +20,5 @@ This section specifies the security requirements that shall be satisfied by cryp
 Table 1: Summary of security requirements
 
 A cryptographic module shall be tested against the requirements of each area addressed in this section. The cryptographic module shall be independently rated in each area. Several areas provide for increasing levels of security with cumulative security requirements for each security level. In these areas, the cryptographic
+
+12

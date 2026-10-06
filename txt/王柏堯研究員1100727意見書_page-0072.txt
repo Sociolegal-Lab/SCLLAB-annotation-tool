@@ -31,3 +31,5 @@ In addition to the applicable requirements for Security Level 1, the following r
   □ Specify the set of roles that can read the following cryptographic software components stored within the cryptographic boundary: cryptographic data (e.g., cryptographic keys and audit data), CSPs, and plaintext data.
 
   □ Specify the set of roles that can enter cryptographic keys and CSPs.
+
+28

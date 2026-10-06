@@ -25,3 +25,5 @@ Until such time as an Approved nondeterministic RNG standard exists, nondetermin
 An Approved RNG shall be used for the generation of cryptographic keys used by an Approved security function. The output from a non-Approved RNG may be used 1) as input (e.g., seed, and seed key) to an Approved deterministic RNG or 2) to generate initialization vectors (IVs) for Approved security function(s). The seed and seed key shall not have the same value.
 
 Documentation shall specify each RNG (Approved and non-Approved) employed by a cryptographic module.
+
+30

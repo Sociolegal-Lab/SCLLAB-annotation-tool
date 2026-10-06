@@ -21,3 +21,5 @@ Environmental failure protection (EFP) features shall protect a cryptographic mo
 The EFP features shall involve electronic circuitry or devices that continuously measure the operating temperature and voltage of a cryptographic module. If the temperature or voltage fall outside of the cryptographic module's normal operating range, the protection circuitry shall either (1) shutdown the module to prevent further operation or (2) immediately zeroize all plaintext secret and private cryptographic keys and CSPs.
 
 Documentation shall specify the normal operating ranges of a cryptographic module and the environmental failure protection features employed by the module.
+
+26

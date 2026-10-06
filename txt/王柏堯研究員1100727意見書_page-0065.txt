@@ -22,3 +22,5 @@ The following requirements shall apply to all physical embodiments.
 • If a cryptographic module includes a maintenance role that requires physical access to the contents of the module or if the module is designed to permit physical access (e.g., by the module vendor or other authorized individual), then:
 
 　❑ a maintenance access interface shall be defined,
+
+21

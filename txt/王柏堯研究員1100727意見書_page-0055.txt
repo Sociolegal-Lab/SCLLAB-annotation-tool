@@ -15,3 +15,5 @@ The security requirements specified in this standard relate to the secure design
 • To ensure that the cryptographic module performs properly when operating in an Approved mode of operation.
 
 • To detect errors in the operation of the cryptographic module and to prevent the compromise of sensitive data and CSPs resulting from these errors.
+
+11

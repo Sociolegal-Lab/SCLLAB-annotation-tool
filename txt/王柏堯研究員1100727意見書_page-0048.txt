@@ -36,3 +36,5 @@ Cryptographic key (key): a parameter used in conjunction with a cryptographic al
 • the verification of a digital signature computed from data,
 • an authentication code computed from data, or
 • an exchange agreement of a shared secret.
+
+4

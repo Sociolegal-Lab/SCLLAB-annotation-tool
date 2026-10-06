@@ -37,3 +37,5 @@ on a general purpose computing system using an operating system that
 • is evaluated at the CC evaluation assurance level EAL4 (or higher).
 
 An equivalent evaluated trusted operating system may be used.
+
+3

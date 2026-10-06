@@ -33,3 +33,5 @@ Either
 • the multiple-chip embodiment of the circuitry within the cryptographic module shall be covered with a hard potting material (e.g., a hard epoxy material) that is opaque within the visible spectrum
 
 or
+
+25

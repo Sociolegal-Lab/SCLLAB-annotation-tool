@@ -33,4 +33,6 @@ A cryptographic module may employ random number generators (RNGs). If a cryptogr
 
 Until such time as an Approved nondeterministic RNG standard exists, nondeterministic RNGs approved for use in classified applications may be used for key generation or to seed Approved deterministic RNGs used in key generation. Commercially available nondeterministic RNGs may be used for the purpose of generating seeds for Approved deterministic RNGs. Nondeterministic RNGs shall comply with all applicable RNG requirements of this standard.
 
-An Approved RNG shall be used for the generation of cryptographic keys used by any Approved security function. The output from a non-Approved RNG may be used 1) as input (e.g., seed, and seed key) to an
+An Approved RNG shall be used for the generation of cryptographic keys used by an Approved security function. The output from a non-Approved RNG may be used 1) as input (e.g., seed, and seed key) to an
+
+55
