@@ -13,3 +13,5 @@ Other Attacks | Mitigation Mechanism | Specific Limitations
   | … | …
 
 Table C6. Mitigation of Other Attacks
+
+50

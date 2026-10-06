@@ -31,3 +31,5 @@ In addition to the general requirements for Security Levels 1 and 2, the followi
 SECURITY LEVEL 4
 
 In addition to the general requirements for Security Levels 1, 2, and 3, the following requirement shall apply to all cryptographic modules for Security Level 4.
+
+22

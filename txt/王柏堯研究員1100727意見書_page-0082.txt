@@ -25,3 +25,5 @@ Implementation of software and firmware components within a cryptographic module
 Crypto officer guidance is concerned with the correct configuration, maintenance, and administration of the cryptographic module. User guidance describes the security functions of the cryptographic module along with instructions, guidelines, and warnings for the secure use of the module. If a cryptographic module supports a maintenance role, user/crypto officer guidance describes the physical and/or logical maintenance services for operators assuming the maintenance role.
 
 Crypto officer guidance shall specify:
+
+38

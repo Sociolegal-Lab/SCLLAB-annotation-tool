@@ -21,3 +21,5 @@ The following documentation requirements shall apply to all security-specific ha
 • Documentation shall specify the manual or logical controls of a cryptographic module, physical or logical status indicators, and applicable physical, logical, and electrical characteristics.
 
 • Documentation shall list all security functions, both Approved and non-Approved, that are employed by a cryptographic module and shall specify all modes of operation, both Approved and non-Approved.
+
+13

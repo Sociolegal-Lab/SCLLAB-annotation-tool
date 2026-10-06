@@ -3,7 +3,7 @@ K-匿名化是一個資料集的性質，一個資料集裡面每一個人的資
 健保資料庫包含了許多個人醫療相關的資料，也正因為這樣詳細的資料可以透過資料分析產生重要洞見(insight)。但這樣的資料要完成產生出符合 K-匿名化的資料集且要有不錯的效用，這幾乎是不可能的任務。因此才改成資料中心的模式，在分析的過程中所使用的資料集並不符合 K-匿名化的要求，而是在資料攜出時候對於攜出資料做了限制。這樣的做法的確增加了隱私的保護，但是是否與 K-匿名化有相同的效果，似乎不是簡單的論證。
 
 III. 去識別化技術在隱私保護的角色
-首先引用美國總統科技顧問(president’s council of advisors on science and technology, PCAST)遞交的一份有關巨量資料與隱私的報告¹(Big Data and Privacy: A Technological Perspective, May 2014)中有關去識別化技術的描述：面對巨量高維度的資料，去識別化後資料被再識別(re-identification)的風險增加.且其面對未來新產生的分析技術與新出現的資料集會有始料未及的困難。因此「傳統的」去識別化技術要成為隱私保護的基石會有困難，但仍然可以提供多一層的保護。此處傳統的去識別化技術包含了 K-匿名化。其原文如下：
+首先引用美國總統科技顧問(president’s council of advisors on science and technology, PCAST)遞交的一份有關巨量資料與隱私的報告¹(Big Data and Privacy: A Technological Perspective, May 2014)中有關去識別化技術的描述：面對巨量高維度的資料，去識別化後資料被再識別(re-identification)的風險增加. 且其面對未來新產生的分析技術與新出現的資料集會有始料未及的困難。因此「傳統的」去識別化技術要成為隱私保護的基石會有困難，但仍然可以提供多一層的保護。此處傳統的去識別化技術包含了 K-匿名化。其原文如下：
 
 “Anonymization remains somewhat useful as an added safeguard,
 but it is not robust against near-term future reidentification
@@ -11,5 +11,4 @@ methods. PCAST does not see it as being a useful basis for
 policy. Unfortunately, anonymization is already rooted in the
 law, sometimes giving a false expectation of privacy where data
 
-¹ REPORT TO THE PRESIDENT. BIG DATA AND PRIVACY: A TECHNOLOGICAL PERSPECTIVE. Executive Office
-of the President. President's Council of Advisors on. Science and Technology. May 2014
+¹ REPORT TO THE PRESIDENT. BIG DATA AND PRIVACY: A TECHNOLOGICAL PERSPECTIVE. Executive Office of the President. President's Council of Advisors on. Science and Technology. May 2014

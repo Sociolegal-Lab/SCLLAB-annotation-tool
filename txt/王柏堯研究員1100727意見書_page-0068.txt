@@ -37,3 +37,5 @@ Either
 or
 
 • the applicable Security Level 3 requirements for multiple-chip standalone cryptographic modules shall apply. (Section 4.5.4)
+
+24

@@ -16,7 +16,7 @@ Key words: computer security, telecommunication security, cryptography, cryptogr
 National Institute of Standards
 and Technology
 FIPS PUB 140-2
-pages (May 25, 2001)
+64 pages (May 25, 2001)
 
 U.S. Government Printing Office
 Washington: 2001

@@ -27,3 +27,5 @@ If split knowledge procedures are used:
 ❑ documentation shall prove that if knowledge of n key components is required to reconstruct the original key, then knowledge of any n-1 key components provides no information about the original key other than the length, and
 
 ❑ documentation shall specify the procedures employed by a cryptographic module.
+
+32

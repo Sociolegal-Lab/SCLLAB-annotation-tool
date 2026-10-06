@@ -36,3 +36,5 @@ In addition to the applicable requirements for Security Levels 1 and 2, the foll
   □ attempts to use the trusted path function, and
 
   □ identification of the initiator and target of a trusted path.
+
+29
