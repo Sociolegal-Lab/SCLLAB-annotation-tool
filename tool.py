@@ -120,6 +120,7 @@ INDEX_HTML = r"""<!doctype html>
   .main{display:flex;flex:1;min-height:0;}
   body{display:flex;flex-direction:column;}
   .sidebar{width:240px;background:#252525;border-right:1px solid #444;overflow-y:auto;flex-shrink:0;}
+  .main.noside .sidebar{display:none;}
   .sidebar .item{padding:6px 12px;cursor:pointer;border-bottom:1px solid #333;color:#bbb;font-size:13px;
                  overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
   .sidebar .item:hover{background:#333;}
@@ -146,6 +147,7 @@ INDEX_HTML = r"""<!doctype html>
 </head>
 <body>
 <div class="topbar">
+  <button onclick="toggleSidebar()" title="收合 / 展開左側頁面清單">☰ 清單</button>
   <button onclick="goPrev()">← 上一頁</button>
   <span><span class="label">頁</span> <input type="number" id="jump" min="1" max="{{ total }}" value="{{ idx+1 }}" onchange="jumpTo()"> / {{ total }}</span>
   <button onclick="goNext()">下一頁 →</button>
@@ -154,7 +156,11 @@ INDEX_HTML = r"""<!doctype html>
   <button class="save" onclick="save()" id="save">儲存 (Ctrl+S)</button>
   <span class="status" id="status"></span>
 </div>
-<div class="main">
+<div class="main" id="main">
+  <script>
+    // 頁面一載入就套用上次的收合狀態, 避免清單先出現再消失
+    try{ if(localStorage.getItem('ocr_sidebar') === '0') document.getElementById('main').classList.add('noside'); }catch(e){}
+  </script>
   <div class="sidebar" id="sidebar">
     {% for p in page_list %}
       <div class="item {{ 'active' if loop.index0==idx else '' }}{{ ' noimg' if not p.has_img else '' }}{{ ' new' if not p.has_txt else '' }}"
@@ -173,7 +179,7 @@ INDEX_HTML = r"""<!doctype html>
           <button onclick="zoomReset()" title="重設">⤢</button>
         </div>
         <div class="img-wrap fit" id="imgwrap">
-          <img id="pageimg" src="/img?idx={{ idx }}" alt="page image" onload="applyZoom()">
+          <img id="pageimg" src="/img?idx={{ idx }}" alt="page image" onload="applyZoom(false)">
         </div>
       {% else %}
         <div style="color:#888;padding:40px;">(無圖)</div>
@@ -244,36 +250,67 @@ async function jumpTo(){
 window.addEventListener('beforeunload', e => {
   if(dirty){ e.preventDefault(); e.returnValue=''; return ''; }
 });
-let zoomLevel = 1.0;  // 1.0 = "fit to container", anything else multiplies natural pixel size
-function applyZoom(){
+// ---- 圖片縮放 ----
+// 100% = 整張圖剛好塞進圖片區; 其他倍率都以這個大小為基準, 每級 10%。
+// 倍率會記住, 換頁後維持同樣大小。
+const ZOOM_MIN = 0.3, ZOOM_MAX = 5.0, ZOOM_STEP = 0.1;
+let zoomLevel = (function(){
+  const z = parseFloat(localStorage.getItem('ocr_zoom'));
+  return (z >= ZOOM_MIN && z <= ZOOM_MAX) ? z : 1.0;
+})();
+function fitScale(img, wrap){
+  // offsetWidth/Height 含捲軸寬度, 不會因為出現捲軸而讓 100% 的基準跳動
+  const cs = getComputedStyle(wrap);
+  const w = wrap.offsetWidth - parseFloat(cs.paddingLeft) - parseFloat(cs.paddingRight);
+  const h = wrap.offsetHeight - parseFloat(cs.paddingTop) - parseFloat(cs.paddingBottom);
+  return Math.min(w / img.naturalWidth, h / img.naturalHeight);
+}
+function applyZoom(keepCenter = true){
   const img = document.getElementById('pageimg');
   const wrap = document.getElementById('imgwrap');
   if(!img || !wrap) return;
-  if(zoomLevel === 1.0){
+  document.getElementById('zlabel').textContent = Math.round(zoomLevel*100)+'%';
+  if(Math.abs(zoomLevel - 1) < 1e-9){
     wrap.classList.add('fit');
     img.style.width = '';
     img.style.height = '';
+    return;
+  }
+  if(!img.naturalWidth) return;
+  // 縮放前記住畫面中心落在圖上的相對位置, 縮放後捲回同一點
+  const cx = (wrap.scrollLeft + wrap.clientWidth / 2) / Math.max(wrap.scrollWidth, 1);
+  const cy = (wrap.scrollTop + wrap.clientHeight / 2) / Math.max(wrap.scrollHeight, 1);
+  wrap.classList.remove('fit');
+  img.style.width = Math.round(img.naturalWidth * fitScale(img, wrap) * zoomLevel) + 'px';
+  img.style.height = 'auto';
+  if(keepCenter){
+    wrap.scrollLeft = cx * wrap.scrollWidth - wrap.clientWidth / 2;
+    wrap.scrollTop = cy * wrap.scrollHeight - wrap.clientHeight / 2;
   } else {
-    wrap.classList.remove('fit');
-    if(img.naturalWidth){
-      img.style.width = (img.naturalWidth * zoomLevel) + 'px';
-      img.style.height = 'auto';
-    }
+    // 剛換頁: 從頁面頂端、水平置中開始看
+    wrap.scrollLeft = (wrap.scrollWidth - wrap.clientWidth) / 2;
+    wrap.scrollTop = 0;
   }
-  document.getElementById('zlabel').textContent = Math.round(zoomLevel*100)+'%';
 }
-const ZOOM_STEPS = [0.25, 0.5, 0.75, 1.0, 1.5, 2.0, 3.0, 4.0, 6.0];
-function zoom(dir){
-  let cur = ZOOM_STEPS.indexOf(zoomLevel);
-  if(cur < 0){
-    cur = ZOOM_STEPS.findIndex(s => s >= zoomLevel);
-    if(cur < 0) cur = ZOOM_STEPS.length - 1;
-  }
-  const nxt = Math.max(0, Math.min(ZOOM_STEPS.length - 1, cur + dir));
-  zoomLevel = ZOOM_STEPS[nxt];
+function setZoom(z){
+  zoomLevel = Math.round(Math.max(ZOOM_MIN, Math.min(ZOOM_MAX, z)) * 10) / 10;
+  localStorage.setItem('ocr_zoom', zoomLevel);
   applyZoom();
 }
-function zoomReset(){ zoomLevel = 1.0; applyZoom(); }
+function zoom(dir){ setZoom(zoomLevel + dir * ZOOM_STEP); }
+function zoomReset(){ setZoom(1.0); }
+window.addEventListener('resize', () => applyZoom());
+
+// ---- 左側清單收合 ----
+function toggleSidebar(){
+  const hidden = document.getElementById('main').classList.toggle('noside');
+  localStorage.setItem('ocr_sidebar', hidden ? '0' : '1');
+  applyZoom();
+  if(!hidden){
+    const item = document.querySelector('.sidebar .item.active');
+    if(item) item.scrollIntoView({block:'center'});
+  }
+}
 
 // ---- 文字區字級 ----
 const FONT_STEPS = [10,12,14,16,18,20,24,28,32,40,48];
@@ -320,12 +357,17 @@ document.addEventListener('keydown', e => {
   if(e.ctrlKey && e.shiftKey && (e.key==='V' || e.key==='v')){ e.preventDefault(); toggleVert(); }
 });
 
-// Ctrl+wheel zoom on image
+// Ctrl+滾輪縮放圖片。觸控板一次會送出很多小幅度的事件, 累積到一定量才算一級, 免得一滑就放大好幾倍
+let wheelAcc = 0;
 document.addEventListener('wheel', e => {
   const imgwrap = document.getElementById('imgwrap');
   if(imgwrap && imgwrap.contains(e.target) && e.ctrlKey){
     e.preventDefault();
-    zoom(e.deltaY < 0 ? 1 : -1);
+    wheelAcc += e.deltaY;
+    if(Math.abs(wheelAcc) >= 40){
+      zoom(wheelAcc < 0 ? 1 : -1);
+      wheelAcc = 0;
+    }
   }
 }, {passive: false});
 </script>
